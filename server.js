@@ -82,7 +82,7 @@ let pokemonCache = [];
 // Add method filtering configuration
 const ALLOWED_METHODS = new Set([
   'gift',          // NPC gifts
-  'wild',          // Wild encounters
+  'walk',          // Tall grass encounters
   'surf',          // Surfing
   'old-rod',
   'good-rod',
@@ -104,6 +104,7 @@ const processEncounters = (encountersData, selectedVersions) => {
   const games = new Set();
   const slot2Games = new Set();
   const methods = new Set();
+  const methodsByGame = {};
 
   encountersData.forEach(encounter => {
     encounter.version_details.forEach(versionDetail => {
@@ -120,17 +121,88 @@ const processEncounters = (encountersData, selectedVersions) => {
           methods.add(method);
           games.add(versionName);
           
+          // Track methods by game
+          if (!methodsByGame[versionName]) {
+            methodsByGame[versionName] = new Set();
+          }
+          methodsByGame[versionName].add(method);
+          
           if (slot2Game && GAME_MAP[slot2Game]) {
             slot2Games.add(slot2Game);
+            // Track methods for slot2 games as well
+            if (!methodsByGame[slot2Game]) {
+              methodsByGame[slot2Game] = new Set();
+            }
+            methodsByGame[slot2Game].add(method);
           }
         }
       });
     });
   });
 
-  return { games: Array.from(games), slot2: Array.from(slot2Games), methods: Array.from(methods) };
+  // Convert Sets to arrays in methodsByGame
+  const methodsByGameArray = Object.fromEntries(
+    Object.entries(methodsByGame).map(([game, methods]) => [
+      game,
+      Array.from(methods)
+    ])
+  );
+
+  return { 
+    games: Array.from(games), 
+    slot2: Array.from(slot2Games), 
+    methods: Array.from(methods),
+    methodsByGame: methodsByGameArray
+  };
 };
 
+
+const processEvolutionChain = (chain) => {
+  const result = {};
+  
+  const processChain = (node, prevName = null) => {
+    const name = node.species.name;
+    const evolutions = {
+      prev: prevName ? { name: prevName } : null,
+      next: []
+    };
+    
+    if (node.evolves_to.length > 0) {
+      node.evolves_to.forEach(evolution => {
+        const evolutionDetails = evolution.evolution_details[0] || {};
+        const evolutionInfo = {
+          name: evolution.species.name,
+          trigger: evolutionDetails.trigger?.name || 'unknown'
+        };
+
+        // Add specific evolution details based on trigger type
+        if (evolutionDetails.min_level) {
+          evolutionInfo.level = evolutionDetails.min_level;
+        }
+        if (evolutionDetails.item) {
+          evolutionInfo.item = evolutionDetails.item.name;
+        }
+        if (evolutionDetails.min_happiness) {
+          evolutionInfo.happiness = evolutionDetails.min_happiness;
+        }
+        if (evolutionDetails.time_of_day) {
+          evolutionInfo.timeOfDay = evolutionDetails.time_of_day;
+        }
+        if (evolutionDetails.held_item) {
+          evolutionInfo.heldItem = evolutionDetails.held_item.name;
+        }
+        
+        evolutions.next.push(evolutionInfo);
+        processChain(evolution, name);
+      });
+    }
+    
+    result[name] = evolutions;
+  };
+  
+  processChain(chain);
+  return result;
+};
 
 function loadPokemonData() {
   const pokemonDir = path.join(DATA_ROOT, 'api/v2/pokemon');
@@ -164,11 +236,27 @@ function loadPokemonData() {
         });
       });
 
+      // Load species data to get evolution chain
+      const speciesPath = path.join(DATA_ROOT, mainData.species.url, 'index.json');
+      const speciesData = JSON.parse(fs.readFileSync(speciesPath, 'utf8'));
+      
+      // Load evolution chain data
+      const evolutionChainPath = path.join(DATA_ROOT, speciesData.evolution_chain.url, 'index.json');
+      const evolutionChainData = JSON.parse(fs.readFileSync(evolutionChainPath, 'utf8'));
+      
+      // Process evolution data
+      const evolutionData = processEvolutionChain(evolutionChainData.chain);
+      
+      const encounterData = processEncounters(encountersData);
       return {
         id: mainData.id,
         name: mainData.name,
-        ...processEncounters(encountersData),
-        sprite: mainData.sprites.other['official-artwork'].front_default
+        games: encounterData.games,
+        slot2: encounterData.slot2,
+        methods: encounterData.methods,
+        methodsByGame: encounterData.methodsByGame || {},
+        sprite: mainData.sprites.other['official-artwork'].front_default,
+        evolutions: evolutionData[mainData.name]
       };
     } catch (error) {
       console.error(`Error loading ${folder}:`, error.message);
@@ -181,20 +269,176 @@ function loadPokemonData() {
 loadPokemonData();
 console.log(`Loaded ${pokemonCache.length} Pokémon with encounter data`);
 
+// Helper function to check if a Pokemon exists in given game versions
+const isPokemonInVersions = (pokemon, versions) => {
+  const directMatch = pokemon.games.some(g => versions.includes(g));
+  const slot2Match = pokemon.slot2.some(s => versions.includes(s));
+  return directMatch || slot2Match;
+};
+
+// Helper function to get a Pokemon by name from cache
+const getPokemonByName = (name) => {
+  return pokemonCache.find(p => p.name === name);
+};
+
+// Get available games for a Pokemon from cache
+const getAvailableGames = (pokemon, versions) => {
+  return [...new Set([
+    ...pokemon.games.filter(g => versions.includes(g)),
+    ...pokemon.slot2.filter(s => versions.includes(s))
+  ])];
+};
+
+// Process evolution data with game version info
+const processEvolutionWithVersions = (pokemon, evolution, versions) => {
+  const evolvedPokemon = getPokemonByName(evolution.name);
+  const availableGames = evolvedPokemon ? getAvailableGames(evolvedPokemon, versions) : [];
+  
+  return {
+    ...evolution,
+    availableIn: availableGames,  // Add available games to evolution data
+    obtainable: availableGames.length > 0  // Flag if evolution is obtainable in any requested version
+  };
+};
+
+// Function to get the entire evolution chain for a Pokemon
+const getEvolutionChainMembers = (pokemon, versions) => {
+  const result = new Set();
+  
+  // Add the Pokemon itself
+  result.add(pokemon.name);
+  
+  // Add pre-evolutions (walking up)
+  let current = pokemon;
+  while (current?.evolutions?.prev) {
+    const prevPokemon = getPokemonByName(current.evolutions.prev.name);
+    if (prevPokemon) {
+      result.add(prevPokemon.name);
+      current = prevPokemon;
+    } else {
+      break;
+    }
+  }
+  
+  // Add evolutions (walking down)
+  const processNextEvolutions = (pokemon) => {
+    if (pokemon?.evolutions?.next) {
+      pokemon.evolutions.next.forEach(evolution => {
+        const evolvedPokemon = getPokemonByName(evolution.name);
+        if (evolvedPokemon) {
+          result.add(evolvedPokemon.name);
+          processNextEvolutions(evolvedPokemon);
+        }
+      });
+    }
+  };
+  
+  processNextEvolutions(pokemon);
+  return Array.from(result);
+};
+
+// Helper function to get the highest generation from selected versions
+const getHighestGeneration = (versions) => {
+  return Math.max(...versions.map(v => GAME_GENERATIONS[v] || 0));
+};
+
+// Helper function to check if a Pokemon is from a valid generation
+const isValidGeneration = (id, maxGeneration) => {
+  // Gen 1: 1-151
+  // Gen 2: 152-251
+  // Gen 3: 252-386
+  // Gen 4: 387-493
+  // Gen 5: 494-649
+  // Gen 6: 650-721
+  // Gen 7: 722-809
+  // Gen 8: 810-905
+  // Gen 9: 906+
+  const genRanges = [
+    [1, 151],    // Gen 1
+    [152, 251],  // Gen 2
+    [252, 386],  // Gen 3
+    [387, 493],  // Gen 4
+    [494, 649],  // Gen 5
+    [650, 721],  // Gen 6
+    [722, 809],  // Gen 7
+    [810, 905],  // Gen 8
+    [906, 1025]  // Gen 9
+  ];
+  
+  const generation = genRanges.findIndex(([start, end]) => id >= start && id <= end) + 1;
+  return generation > 0 && generation <= maxGeneration;
+};
+
 app.post('/api/pokemon', (req, res) => {
   const { versions } = req.body;
   
-  const filtered = pokemonCache.filter(p => {
-    const directMatch = p.games.some(g => versions.includes(g));
-    const slot2Match = p.slot2.some(s => versions.includes(s));
-    return directMatch || slot2Match;
-  }).map(p => ({
-    ...p,
-    games: [...new Set([
-      ...p.games.filter(g => versions.includes(g)),
-      ...p.slot2.filter(s => versions.includes(s))
-    ])]
-  }));
+  // Get the highest generation from selected versions
+  const maxGeneration = getHighestGeneration(versions);
+  
+  // First get directly obtainable Pokemon from valid generations
+  const directlyObtainable = pokemonCache.filter(p => 
+    isPokemonInVersions(p, versions) && isValidGeneration(p.id, maxGeneration)
+  );
+  
+  // Get all evolution chain members for each directly obtainable Pokemon
+  const evolutionChainMembers = new Set();
+  directlyObtainable.forEach(pokemon => {
+    const chainMembers = getEvolutionChainMembers(pokemon, versions);
+    chainMembers.forEach(name => {
+      const member = getPokemonByName(name);
+      // Only add evolution chain members from valid generations
+      if (member && isValidGeneration(member.id, maxGeneration)) {
+        evolutionChainMembers.add(name);
+      }
+    });
+  });
+  
+  // Filter and process Pokemon with enhanced evolution data
+  const filtered = pokemonCache
+    .filter(p => evolutionChainMembers.has(p.name) && isValidGeneration(p.id, maxGeneration))
+    .map(p => {
+      // Get methods by game for selected versions
+      const availableGames = getAvailableGames(p, versions);
+      const methodsByGame = {};
+      
+      // Only include methods for available games
+      for (const game of availableGames) {
+        if (p.methodsByGame[game]) {
+          methodsByGame[game] = p.methodsByGame[game];
+        }
+      }
+
+      const pokemon = {
+        ...p,
+        games: availableGames,
+        methodsByGame
+      };
+
+      // Add version info to evolution data
+      if (pokemon.evolutions) {
+        if (pokemon.evolutions.prev) {
+          const prevPokemon = getPokemonByName(pokemon.evolutions.prev.name);
+          const prevGames = prevPokemon ? getAvailableGames(prevPokemon, versions) : [];
+          pokemon.evolutions.prev = {
+            ...pokemon.evolutions.prev,
+            games: prevGames,
+            obtainable: prevGames.length > 0
+          };
+        }
+        
+        if (pokemon.evolutions.next) {
+          // Filter out evolutions from later generations
+          pokemon.evolutions.next = pokemon.evolutions.next
+            .filter(evolution => {
+              const evolvedPokemon = getPokemonByName(evolution.name);
+              return evolvedPokemon && isValidGeneration(evolvedPokemon.id, maxGeneration);
+            })
+            .map(evolution => processEvolutionWithVersions(pokemon, evolution, versions));
+        }
+      }
+
+      return pokemon;
+    });
 
   res.json({ pokemon: filtered });
 });
