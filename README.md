@@ -7,7 +7,7 @@ You may find the Client repo [here](https://github.com/VHCosta/pokemon-availabil
 
 ## Known issues
 
-*Some Pokemon are missing Evolution method data if their previous form was only obtainable by evolving. _(Example: On selecting Pokemon Red, Ivysaur is only obtainable through evolving the starter Bulbasaur, so it gets the Evolution tag. Venusaur is missing its tag.)_
+* Some Pokemon are missing Evolution method data if their previous form was only obtainable by evolving. _(Example: On selecting Pokemon Red, Ivysaur is only obtainable through evolving the starter Bulbasaur, so it gets the Evolution tag. Venusaur is missing its tag.)_
 * Currently I am testing the app with a locally cached copy of the API data, cloned from [here](https://github.com/PokeAPI/pokeapi), to avoid potential rate limits. I have not since tested using the official API, so you may have to do the same to run locally.
 
 ## Future Plans:
