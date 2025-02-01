@@ -1,8 +1,9 @@
 # Pokémon Availability - Server
 A backend server of a two part app for checking Pokémon availability given a selection of games. 
 
-Written in ReactJS. Code partially generated using DeepSeek-R1 and Cline extension with Claude 3.5-Sonnet on VSCode.
+This project is written in ReactJS. Parts of the code were generated using [DeepSeek-R1](https://chat.deepseek.com/) and the [Cline](https://cline.bot/) extension with [Claude 3.5-Sonnet](https://claude.ai/) in Visual Studio Code (VSCode).
 
+### Client
 You may find the Client repo [here](https://github.com/VHCosta/pokemon-availability-client).
 
 ## Known issues
@@ -17,6 +18,4 @@ You may find the Client repo [here](https://github.com/VHCosta/pokemon-availabil
 ## Credits
 
 * Data extracted from [PokéAPI](https://pokeapi.co/), created by [Paul Hallett](https://github.com/phalt) and other [PokéAPI contributors](https://github.com/PokeAPI/pokeapi/graphs/contributors) around the world.
-* Pokémon game logos by [JorMxDos on DeviantArt](https://www.deviantart.com/jormxdos).
-* Favicon by [Nikita Golubev on Flaticon.com](https://www.flaticon.com/authors/nikita-golubev).
 * Pokémon and Pokémon character names are trademarks of Nintendo.
