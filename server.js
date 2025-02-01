@@ -408,34 +408,16 @@ app.post('/api/pokemon', (req, res) => {
       const selectedGameGenerations = versions.map(v => GAME_GENERATIONS[v]);
       const minSelectedGeneration = Math.min(...selectedGameGenerations);
 
-      // Add evolution method only if it's valid for the generation and a primary obtention method
+      // Check evolution availability for this Pokemon
       if (p.evolutions?.prev) {
         const prevPokemon = getPokemonByName(p.evolutions.prev.name);
-        const hasDirectEncounters = Object.keys(p.methodsByGame).some(game => 
-          versions.includes(game) && p.methodsByGame[game].length > 0
-        );
+        if (prevPokemon) {
+          // Get pre-evolution generation
+          const prevPokemonGeneration = GENERATION_RANGES.findIndex(([start, end]) => 
+            prevPokemon.id >= start && prevPokemon.id <= end
+          ) + 1;
 
-        // Only add evolution if:
-        // 1. Pre-evolution exists and is from valid generation
-        // 2. Pre-evolution is available in selected games
-        // 3. Current Pokemon has no direct encounters
-        // 4. Pre-evolution is from same or earlier generation
-        const prevPokemonGeneration = GENERATION_RANGES.findIndex(([start, end]) => 
-          prevPokemon && prevPokemon.id >= start && prevPokemon.id <= end
-        ) + 1;
-
-        if (prevPokemon && 
-            isValidGeneration(prevPokemon.id, minSelectedGeneration) &&
-            prevPokemon.games.some(g => versions.includes(g)) && 
-            !hasDirectEncounters &&
-            prevPokemonGeneration <= minSelectedGeneration) {
-          
-          const evolutionMethod = 'evolution';
-          methods.add(evolutionMethod);
-          
-          // Add evolution method only for games where both:
-          // 1. The pre-evolution is available
-          // 2. The game's generation is valid for both Pokemon
+          // Get games where pre-evolution exists and generations match
           const evolvedInGames = prevPokemon.games.filter(g => {
             const gameGeneration = GAME_GENERATIONS[g];
             return versions.includes(g) && 
@@ -443,18 +425,32 @@ app.post('/api/pokemon', (req, res) => {
                    gameGeneration >= minSelectedGeneration;
           });
 
-          new Set(evolvedInGames).forEach(game => {
-            if (!methodsByGame[game]) {
-              methodsByGame[game] = [];
-            }
-            if (!methodsByGame[game].includes(evolutionMethod)) {
-              methodsByGame[game].push(evolutionMethod);
-            }
-          });
+          if (isValidGeneration(prevPokemon.id, minSelectedGeneration) && evolvedInGames.length > 0) {
+            // For each game where evolution is possible...
+            evolvedInGames.forEach(game => {
+              const hasEncountersInGame = p.methodsByGame[game]?.length > 0;
+              
+              if (!hasEncountersInGame) {
+                // Case 1: No direct encounters - evolution is the only method
+                methodsByGame[game] = ['evolution'];
+              } else {
+                // Case 2: Has encounters and can evolve - add evolution to methods
+                if (!methodsByGame[game]) {
+                  methodsByGame[game] = [];
+                }
+                if (!methodsByGame[game].includes('evolution')) {
+                  methodsByGame[game].push('evolution');
+                }
+              }
+              
+              // Add evolution method to the overall methods set
+              methods.add('evolution');
+            });
 
-          // Create new availableGames array with evolution games included
-          const combinedGames = [...availableGames, ...evolvedInGames];
-          availableGames = [...new Set(combinedGames)];
+            // Update available games to include evolution games
+            const combinedGames = [...availableGames, ...evolvedInGames];
+            availableGames = [...new Set(combinedGames)];
+          }
         }
       }
 
