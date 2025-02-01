@@ -22,7 +22,7 @@ const GAME_MAP = {
   'emerald': 'emerald',
   'firered': 'firered',
   'leafgreen': 'leafgreen',
-  'diamond': 'diamond', 
+  'diamond': 'diamond',
   'pearl': 'pearl',
   'platinum': 'platinum',
   'heartgold': 'heartgold',
@@ -64,18 +64,31 @@ const GAME_GENERATIONS = {
   // Gen 5
   'black': 5, 'white': 5, 'black-2': 5, 'white-2': 5,
   // Gen 6
-  'x': 6, 'y': 6, 
+  'x': 6, 'y': 6,
   'omega-ruby': 6, 'alpha-sapphire': 6,
   // Gen 7
   'sun': 7, 'moon': 7, 'ultra-sun': 7, 'ultra-moon': 7,
   'lets-go-pikachu': 7, 'lets-go-eevee': 7,
   // Gen 8
-  'sword': 8, 'shield': 8, 
-  'brilliant-diamond': 8, 'shining-pearl': 8, 
+  'sword': 8, 'shield': 8,
+  'brilliant-diamond': 8, 'shining-pearl': 8,
   'legends-arceus': 8,
   // Gen 9
   'scarlet': 9, 'violet': 9
 };
+
+// Generation ranges for Pokemon IDs
+const GENERATION_RANGES = [
+  [1, 151],    // Gen 1
+  [152, 251],  // Gen 2
+  [252, 386],  // Gen 3
+  [387, 493],  // Gen 4
+  [494, 649],  // Gen 5
+  [650, 721],  // Gen 6
+  [722, 809],  // Gen 7
+  [810, 905],  // Gen 8
+  [906, 1025]  // Gen 9
+];
 
 let pokemonCache = [];
 
@@ -120,13 +133,13 @@ const processEncounters = (encountersData, selectedVersions) => {
         if (GAME_MAP[versionName] && ALLOWED_METHODS.has(method)) {
           methods.add(method);
           games.add(versionName);
-          
+
           // Track methods by game
           if (!methodsByGame[versionName]) {
             methodsByGame[versionName] = new Set();
           }
           methodsByGame[versionName].add(method);
-          
+
           if (slot2Game && GAME_MAP[slot2Game]) {
             slot2Games.add(slot2Game);
             // Track methods for slot2 games as well
@@ -148,9 +161,9 @@ const processEncounters = (encountersData, selectedVersions) => {
     ])
   );
 
-  return { 
-    games: Array.from(games), 
-    slot2: Array.from(slot2Games), 
+  return {
+    games: Array.from(games),
+    slot2: Array.from(slot2Games),
     methods: Array.from(methods),
     methodsByGame: methodsByGameArray
   };
@@ -159,14 +172,14 @@ const processEncounters = (encountersData, selectedVersions) => {
 
 const processEvolutionChain = (chain) => {
   const result = {};
-  
+
   const processChain = (node, prevName = null) => {
     const name = node.species.name;
     const evolutions = {
       prev: prevName ? { name: prevName } : null,
       next: []
     };
-    
+
     if (node.evolves_to.length > 0) {
       node.evolves_to.forEach(evolution => {
         const evolutionDetails = evolution.evolution_details[0] || {};
@@ -191,15 +204,15 @@ const processEvolutionChain = (chain) => {
         if (evolutionDetails.held_item) {
           evolutionInfo.heldItem = evolutionDetails.held_item.name;
         }
-        
+
         evolutions.next.push(evolutionInfo);
         processChain(evolution, name);
       });
     }
-    
+
     result[name] = evolutions;
   };
-  
+
   processChain(chain);
   return result;
 };
@@ -213,23 +226,23 @@ function loadPokemonData() {
   pokemonCache = pokemonFolders.map(folder => {
     const pokemonPath = path.join(pokemonDir, folder, 'index.json');
     const encountersPath = path.join(pokemonDir, folder, 'encounters', 'index.json');
-    
+
     try {
       const mainData = JSON.parse(fs.readFileSync(pokemonPath, 'utf8'));
       const encountersData = JSON.parse(fs.readFileSync(encountersPath, 'utf8'));
 
       const gameAppearances = new Set();
-      
+
       encountersData.forEach(encounter => {
         encounter.version_details.forEach(versionDetail => {
           versionDetail.encounter_details.forEach(encounterDetail => {
             const method = encounterDetail.method.name;
             const versionName = versionDetail.version.name;
-            
+
             // Check if method is allowed and version is in our game map
-            if (GAME_MAP[versionName] && 
-                ALLOWED_METHODS.has(method) && 
-                !EXCLUDED_METHODS.has(method)) {
+            if (GAME_MAP[versionName] &&
+              ALLOWED_METHODS.has(method) &&
+              !EXCLUDED_METHODS.has(method)) {
               gameAppearances.add(versionName);
             }
           });
@@ -239,14 +252,14 @@ function loadPokemonData() {
       // Load species data to get evolution chain
       const speciesPath = path.join(DATA_ROOT, mainData.species.url, 'index.json');
       const speciesData = JSON.parse(fs.readFileSync(speciesPath, 'utf8'));
-      
+
       // Load evolution chain data
       const evolutionChainPath = path.join(DATA_ROOT, speciesData.evolution_chain.url, 'index.json');
       const evolutionChainData = JSON.parse(fs.readFileSync(evolutionChainPath, 'utf8'));
-      
+
       // Process evolution data
       const evolutionData = processEvolutionChain(evolutionChainData.chain);
-      
+
       const encounterData = processEncounters(encountersData);
       return {
         id: mainData.id,
@@ -293,7 +306,7 @@ const getAvailableGames = (pokemon, versions) => {
 const processEvolutionWithVersions = (pokemon, evolution, versions) => {
   const evolvedPokemon = getPokemonByName(evolution.name);
   const availableGames = evolvedPokemon ? getAvailableGames(evolvedPokemon, versions) : [];
-  
+
   return {
     ...evolution,
     availableIn: availableGames,  // Add available games to evolution data
@@ -304,10 +317,10 @@ const processEvolutionWithVersions = (pokemon, evolution, versions) => {
 // Function to get the entire evolution chain for a Pokemon
 const getEvolutionChainMembers = (pokemon, versions) => {
   const result = new Set();
-  
+
   // Add the Pokemon itself
   result.add(pokemon.name);
-  
+
   // Add pre-evolutions (walking up)
   let current = pokemon;
   while (current?.evolutions?.prev) {
@@ -319,7 +332,7 @@ const getEvolutionChainMembers = (pokemon, versions) => {
       break;
     }
   }
-  
+
   // Add evolutions (walking down)
   const processNextEvolutions = (pokemon) => {
     if (pokemon?.evolutions?.next) {
@@ -332,7 +345,7 @@ const getEvolutionChainMembers = (pokemon, versions) => {
       });
     }
   };
-  
+
   processNextEvolutions(pokemon);
   return Array.from(result);
 };
@@ -344,42 +357,21 @@ const getHighestGeneration = (versions) => {
 
 // Helper function to check if a Pokemon is from a valid generation
 const isValidGeneration = (id, maxGeneration) => {
-  // Gen 1: 1-151
-  // Gen 2: 152-251
-  // Gen 3: 252-386
-  // Gen 4: 387-493
-  // Gen 5: 494-649
-  // Gen 6: 650-721
-  // Gen 7: 722-809
-  // Gen 8: 810-905
-  // Gen 9: 906+
-  const genRanges = [
-    [1, 151],    // Gen 1
-    [152, 251],  // Gen 2
-    [252, 386],  // Gen 3
-    [387, 493],  // Gen 4
-    [494, 649],  // Gen 5
-    [650, 721],  // Gen 6
-    [722, 809],  // Gen 7
-    [810, 905],  // Gen 8
-    [906, 1025]  // Gen 9
-  ];
-  
-  const generation = genRanges.findIndex(([start, end]) => id >= start && id <= end) + 1;
+  const generation = GENERATION_RANGES.findIndex(([start, end]) => id >= start && id <= end) + 1;
   return generation > 0 && generation <= maxGeneration;
 };
 
 app.post('/api/pokemon', (req, res) => {
   const { versions } = req.body;
-  
+
   // Get the highest generation from selected versions
   const maxGeneration = getHighestGeneration(versions);
-  
+
   // First get directly obtainable Pokemon from valid generations
-  const directlyObtainable = pokemonCache.filter(p => 
+  const directlyObtainable = pokemonCache.filter(p =>
     isPokemonInVersions(p, versions) && isValidGeneration(p.id, maxGeneration)
   );
-  
+
   // Get all evolution chain members for each directly obtainable Pokemon
   const evolutionChainMembers = new Set();
   directlyObtainable.forEach(pokemon => {
@@ -392,25 +384,84 @@ app.post('/api/pokemon', (req, res) => {
       }
     });
   });
-  
+
   // Filter and process Pokemon with enhanced evolution data
   const filtered = pokemonCache
     .filter(p => evolutionChainMembers.has(p.name) && isValidGeneration(p.id, maxGeneration))
     .map(p => {
-      // Get methods by game for selected versions
-      const availableGames = getAvailableGames(p, versions);
+      // Get methods by game for selected versions - use let since we'll modify this later
+      let availableGames = getAvailableGames(p, versions);
+
+      // Process methods and add evolution if applicable
+      const methods = new Set();
       const methodsByGame = {};
-      
-      // Only include methods for available games
+
+      // Add encounter-based methods
       for (const game of availableGames) {
         if (p.methodsByGame[game]) {
-          methodsByGame[game] = p.methodsByGame[game];
+          methodsByGame[game] = [...p.methodsByGame[game]];
+          p.methodsByGame[game].forEach(method => methods.add(method));
+        }
+      }
+
+      // Get the minimum generation from selected versions for evolution validation
+      const selectedGameGenerations = versions.map(v => GAME_GENERATIONS[v]);
+      const minSelectedGeneration = Math.min(...selectedGameGenerations);
+
+      // Add evolution method only if it's valid for the generation and a primary obtention method
+      if (p.evolutions?.prev) {
+        const prevPokemon = getPokemonByName(p.evolutions.prev.name);
+        const hasDirectEncounters = Object.keys(p.methodsByGame).some(game => 
+          versions.includes(game) && p.methodsByGame[game].length > 0
+        );
+
+        // Only add evolution if:
+        // 1. Pre-evolution exists and is from valid generation
+        // 2. Pre-evolution is available in selected games
+        // 3. Current Pokemon has no direct encounters
+        // 4. Pre-evolution is from same or earlier generation
+        const prevPokemonGeneration = GENERATION_RANGES.findIndex(([start, end]) => 
+          prevPokemon && prevPokemon.id >= start && prevPokemon.id <= end
+        ) + 1;
+
+        if (prevPokemon && 
+            isValidGeneration(prevPokemon.id, minSelectedGeneration) &&
+            prevPokemon.games.some(g => versions.includes(g)) && 
+            !hasDirectEncounters &&
+            prevPokemonGeneration <= minSelectedGeneration) {
+          
+          const evolutionMethod = 'evolution';
+          methods.add(evolutionMethod);
+          
+          // Add evolution method only for games where both:
+          // 1. The pre-evolution is available
+          // 2. The game's generation is valid for both Pokemon
+          const evolvedInGames = prevPokemon.games.filter(g => {
+            const gameGeneration = GAME_GENERATIONS[g];
+            return versions.includes(g) && 
+                   gameGeneration >= prevPokemonGeneration && 
+                   gameGeneration >= minSelectedGeneration;
+          });
+
+          new Set(evolvedInGames).forEach(game => {
+            if (!methodsByGame[game]) {
+              methodsByGame[game] = [];
+            }
+            if (!methodsByGame[game].includes(evolutionMethod)) {
+              methodsByGame[game].push(evolutionMethod);
+            }
+          });
+
+          // Create new availableGames array with evolution games included
+          const combinedGames = [...availableGames, ...evolvedInGames];
+          availableGames = [...new Set(combinedGames)];
         }
       }
 
       const pokemon = {
         ...p,
         games: availableGames,
+        methods: Array.from(methods),
         methodsByGame
       };
 
@@ -425,7 +476,7 @@ app.post('/api/pokemon', (req, res) => {
             obtainable: prevGames.length > 0
           };
         }
-        
+
         if (pokemon.evolutions.next) {
           // Filter out evolutions from later generations
           pokemon.evolutions.next = pokemon.evolutions.next
@@ -444,15 +495,3 @@ app.post('/api/pokemon', (req, res) => {
 });
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
-
-//proxy server
-app.get('/api/v2/:resource/:id', (req, res) => {
-  const { resource, id } = req.params;
-  const filePath = path.join(DATA_ROOT, `api/v2/${resource}/${id}/index.json`);
-  console.log("proxy server logic");
-  if (fs.existsSync(filePath)) {
-    res.sendFile(filePath);
-  } else {
-    res.status(404).json({ error: 'Not found' });
-  }
-});
