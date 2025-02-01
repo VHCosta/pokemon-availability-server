@@ -294,7 +294,35 @@ const getPokemonByName = (name) => {
   return pokemonCache.find(p => p.name === name);
 };
 
-// Get available games for a Pokemon from cache
+// Get all available games for a Pokemon (direct encounters + evolution)
+const getGamesForPokemon = (pokemon, versions, minGeneration) => {
+  // Start with games where Pokemon has direct encounters
+  const availableGames = new Set([
+    ...pokemon.games.filter(g => 
+      versions.includes(g) && 
+      GAME_GENERATIONS[g] >= minGeneration
+    ),
+    ...pokemon.slot2.filter(s => 
+      versions.includes(s) && 
+      GAME_GENERATIONS[s] >= minGeneration
+    )
+  ]);
+
+  // If Pokemon has prev and no direct encounters, include evolution games
+  if (pokemon.evolutions?.prev && availableGames.size === 0) {
+    const prevPokemon = getPokemonByName(pokemon.evolutions.prev.name);
+    if (prevPokemon) {
+      // Get games where pre-evolution is available
+      const prevGames = getGamesForPokemon(prevPokemon, versions, minGeneration);
+      // Add those games as evolution is possible there
+      prevGames.forEach(g => availableGames.add(g));
+    }
+  }
+
+  return Array.from(availableGames);
+};
+
+// Get available games for a Pokemon from cache (direct encounters only)
 const getAvailableGames = (pokemon, versions) => {
   return [...new Set([
     ...pokemon.games.filter(g => versions.includes(g)),
@@ -302,19 +330,101 @@ const getAvailableGames = (pokemon, versions) => {
   ])];
 };
 
-// Process evolution data with game version info
-const processEvolutionWithVersions = (pokemon, evolution, versions) => {
-  const evolvedPokemon = getPokemonByName(evolution.name);
-  const availableGames = evolvedPokemon ? getAvailableGames(evolvedPokemon, versions) : [];
+// Helper function to validate an evolution step is possible in the given games
+const isEvolutionValidInGames = (pokemon, prevPokemon, versions, minGeneration) => {
+  if (!pokemon || !prevPokemon) return false;
 
-  return {
-    ...evolution,
-    availableIn: availableGames,  // Add available games to evolution data
-    obtainable: availableGames.length > 0  // Flag if evolution is obtainable in any requested version
+  // Get pre-evolution generation
+  const prevPokemonGeneration = GENERATION_RANGES.findIndex(([start, end]) => 
+    prevPokemon.id >= start && prevPokemon.id <= end
+  ) + 1;
+
+  // Get games where this evolution step is valid
+  return prevPokemon.games.some(g => {
+    const gameGeneration = GAME_GENERATIONS[g];
+    return versions.includes(g) && 
+           gameGeneration >= prevPokemonGeneration && 
+           gameGeneration >= minGeneration;
+  });
+};
+
+// Helper function to validate evolution chain from base form
+const validateEvolutionChain = (pokemon, versions, minGeneration) => {
+  // First find base form by walking up
+  let base = pokemon;
+  while (base.evolutions?.prev) {
+    const prevPokemon = getPokemonByName(base.evolutions.prev.name);
+    if (!prevPokemon) break;
+    base = prevPokemon;
+  }
+
+  // Start with base form's available games in selected versions
+  let validGames = new Set(
+    base.games.filter(g => 
+      versions.includes(g) && 
+      GAME_GENERATIONS[g] >= minGeneration
+    )
+  );
+
+  // Now walk down the chain from base form
+  let current = base;
+  while (current && validGames.size > 0) {
+    // Look for this Pokemon's evolution
+    const nextEvolution = current.evolutions?.next?.[0];
+    if (!nextEvolution) break;
+
+    // Get the next Pokemon
+    const nextPokemon = getPokemonByName(nextEvolution.name);
+    if (!nextPokemon) break;
+
+    // Keep only games where evolution is valid
+    validGames = new Set(
+      Array.from(validGames).filter(game => {
+        const gameGeneration = GAME_GENERATIONS[game];
+        // Next Pokemon must be from same or earlier generation
+        const nextGeneration = GENERATION_RANGES.findIndex(([start, end]) => 
+          nextPokemon.id >= start && nextPokemon.id <= end
+        ) + 1;
+        return gameGeneration >= nextGeneration;
+      })
+    );
+
+    current = nextPokemon;
+  }
+
+  // Did we reach the target Pokemon?
+  const reachedTarget = current?.name === pokemon.name;
+  return { 
+    valid: reachedTarget && validGames.size > 0, 
+    games: Array.from(validGames)
   };
 };
 
-// Function to get the entire evolution chain for a Pokemon
+// Process evolution data with game version info
+const processEvolutionWithVersions = (pokemon, evolution, versions) => {
+  const evolvedPokemon = getPokemonByName(evolution.name);
+  if (!evolvedPokemon) {
+    return {
+      ...evolution,
+      availableIn: [],
+      obtainable: false
+    };
+  }
+
+  // Get generation info
+  const selectedGameGenerations = versions.map(v => GAME_GENERATIONS[v]);
+  const minSelectedGeneration = Math.min(...selectedGameGenerations);
+
+  // Check evolution chain validity
+  const chainResult = validateEvolutionChain(evolvedPokemon, versions, minSelectedGeneration);
+
+  return {
+    ...evolution,
+    availableIn: chainResult.games,
+    obtainable: chainResult.valid && chainResult.games.length > 0
+  };
+};
+
 const getEvolutionChainMembers = (pokemon, versions) => {
   const result = new Set();
 
@@ -410,37 +520,27 @@ app.post('/api/pokemon', (req, res) => {
 
       // Handle evolution methods and games
       if (p.evolutions?.prev) {
+        // Check if this Pokemon has any direct encounters in ANY selected game
+        const hasAnyDirectEncounters = versions.some(game => 
+          p.methodsByGame[game]?.length > 0
+        );
+
+        // Check pre-evolution availability (including evolution chains)
         const prevPokemon = getPokemonByName(p.evolutions.prev.name);
-        
         if (prevPokemon) {
-          // 1. Validate pre-evolution is from valid generation
-          const prevPokemonGeneration = GENERATION_RANGES.findIndex(([start, end]) => 
-            prevPokemon.id >= start && prevPokemon.id <= end
-          ) + 1;
-          
-          // 2. Find games where pre-evolution exists with valid generation
-          const evolvedInGames = prevPokemon.games.filter(g => {
-            const gameGeneration = GAME_GENERATIONS[g];
-            return versions.includes(g) && 
-                   gameGeneration >= prevPokemonGeneration && 
-                   gameGeneration >= minSelectedGeneration;
-          });
+          // Get ALL games where pre-evolution is available (including through its own evolution)
+          const evolveFromGames = getGamesForPokemon(prevPokemon, versions, minSelectedGeneration);
 
-          // 3. Check if this Pokemon has any direct encounters in ANY selected game
-          const hasAnyDirectEncounters = versions.some(game => 
-            p.methodsByGame[game]?.length > 0
-          );
-
-          if (isValidGeneration(prevPokemon.id, minSelectedGeneration) && evolvedInGames.length > 0) {
-            // If no direct encounters anywhere, evolution is the ONLY way to get this Pokemon
+          if (evolveFromGames.length > 0) {
             if (!hasAnyDirectEncounters) {
-              evolvedInGames.forEach(game => {
+              // If no direct encounters, evolution is the ONLY way to get this Pokemon
+              evolveFromGames.forEach(game => {
                 methodsByGame[game] = ['evolution'];
               });
               methods.add('evolution');
             } else {
-              // Pokemon can be encountered AND evolved - add evolution method where applicable
-              evolvedInGames.forEach(game => {
+              // Pokemon can be encountered AND evolved
+              evolveFromGames.forEach(game => {
                 if (!methodsByGame[game]) {
                   methodsByGame[game] = [];
                 }
@@ -451,8 +551,8 @@ app.post('/api/pokemon', (req, res) => {
               methods.add('evolution');
             }
 
-            // Make sure we include games where Pokemon is evolve-only
-            availableGames = [...new Set([...availableGames, ...evolvedInGames])];
+            // Include evolution-only games
+            availableGames = [...new Set([...availableGames, ...evolveFromGames])];
           }
         }
       }
