@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 const PORT = process.env.PORT || 5000;
-const DATA_ROOT = path.join(__dirname, '../api-data/data');
+const DATA_ROOT = path.join(__dirname, './data');
 
 const GAME_MAP = {
   'red': 'red',
@@ -196,7 +196,7 @@ const processEvolutionChain = (chain) => {
 
     if (node.evolves_to.length > 0) {
       node.evolves_to.forEach(evolution => {
-        const evolutionDetails = evolution.evolution_details[0] || {};
+        const evolutionDetails = evolution.evolution_details? evolution.evolution_details[0] : {};
         const evolutionInfo = {
           name: evolution.species.name,
           trigger: evolutionDetails.trigger?.name || 'unknown'
@@ -240,16 +240,16 @@ function loadPokemonData() {
   pokemonCache = pokemonFolders.map(folder => {
     const pokemonPath = path.join(pokemonDir, folder, 'index.json');
     const encountersPath = path.join(pokemonDir, folder, 'encounters', 'index.json');
-
+    
     try {
       const mainData = JSON.parse(fs.readFileSync(pokemonPath, 'utf8'));
       const encountersData = JSON.parse(fs.readFileSync(encountersPath, 'utf8'));
-
+      
       const gameAppearances = new Set();
 
       encountersData.forEach(encounter => {
         encounter.version_details.forEach(versionDetail => {
-          versionDetail.encounter_details.forEach(encounterDetail => {
+          versionDetail.encounter_details.forEach(encounterDetail => {  
             const method = encounterDetail.method.name;
             const versionName = versionDetail.version.name;
 
@@ -266,11 +266,11 @@ function loadPokemonData() {
       // Load species data to get evolution chain
       const speciesPath = path.join(DATA_ROOT, mainData.species.url, 'index.json');
       const speciesData = JSON.parse(fs.readFileSync(speciesPath, 'utf8'));
-
+      
       // Load evolution chain data
       const evolutionChainPath = path.join(DATA_ROOT, speciesData.evolution_chain.url, 'index.json');
       const evolutionChainData = JSON.parse(fs.readFileSync(evolutionChainPath, 'utf8'));
-
+      
       // Process evolution data
       const evolutionData = processEvolutionChain(evolutionChainData.chain);
 
@@ -282,7 +282,7 @@ function loadPokemonData() {
         slot2: encounterData.slot2,
         methods: encounterData.methods,
         methodsByGame: encounterData.methodsByGame || {},
-        sprite: mainData.sprites.other['official-artwork'].front_default,
+        sprite: mainData.sprite,
         evolutions: evolutionData[mainData.name]
       };
     } catch (error) {
