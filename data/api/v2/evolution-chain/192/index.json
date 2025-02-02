@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "beldum"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "metang"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 20
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "metagross"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 192
+}

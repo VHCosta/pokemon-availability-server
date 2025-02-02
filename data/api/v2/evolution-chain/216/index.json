@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "buizel"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "floatzel"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 26
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 216
+}

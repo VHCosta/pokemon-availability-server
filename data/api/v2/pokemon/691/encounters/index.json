@@ -1,0 +1,62 @@
+[
+  {
+    "location_area": {
+      "name": "ambrette-town-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "y"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "cyllage-city-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "y"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "kalos-route-8-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "y"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  }
+]

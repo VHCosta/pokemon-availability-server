@@ -1,0 +1,39 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "meowth"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "persian"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 28
+          }
+        ],
+        "evolves_to": []
+      },
+      {
+        "species": {
+          "name": "perrserker"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 28
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 22
+}

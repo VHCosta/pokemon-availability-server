@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "bagon"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "shelgon"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 30
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "salamence"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 191
+}

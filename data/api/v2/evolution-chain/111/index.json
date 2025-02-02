@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "slugma"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "magcargo"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 38
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 111
+}

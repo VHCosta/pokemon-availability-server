@@ -1,0 +1,232 @@
+[
+  {
+    "location_area": {
+      "name": "giant-chasm-forest"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "black"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "white"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "black-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "white-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "giant-chasm-forest-cave"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "black-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "white-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "poke-pelago-poni-island-reached"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "sun"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "gift"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "gift"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "poke-pelago-elite-four-defeated"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "sun"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "gift"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "gift"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  }
+]

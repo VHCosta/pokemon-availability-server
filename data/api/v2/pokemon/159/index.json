@@ -1,0 +1,8 @@
+{
+  "id": 159,
+  "name": "croconaw",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/159.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/159/"
+  }
+}

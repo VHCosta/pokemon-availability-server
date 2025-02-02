@@ -1,0 +1,1034 @@
+[
+  {
+    "location_area": {
+      "name": "acuity-lakefront-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "sinnoh-route-217-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "ice-path-1f"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "gold"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "silver"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "crystal"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "heartgold"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "soulsilver"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "ice-path-b1f"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "gold"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "silver"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "crystal"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "heartgold"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "soulsilver"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "ice-path-b2f"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "gold"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "silver"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "crystal"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "heartgold"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "soulsilver"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "ice-path-b3f"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "gold"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "silver"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "crystal"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "heartgold"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "soulsilver"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "icefall-cave-1f"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "firered"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "leafgreen"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "icefall-cave-b1f"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "firered"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "leafgreen"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  }
+]

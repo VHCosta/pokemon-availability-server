@@ -1,0 +1,1014 @@
+[
+  {
+    "location_area": {
+      "name": "sinnoh-route-203-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "rock-tunnel-1f"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "gold"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "silver"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "crystal"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "heartgold"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "soulsilver"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "rock-tunnel-b1f"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "gold"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "silver"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "crystal"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "heartgold"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "soulsilver"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "pokemon-tower-3f"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "red"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "blue"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "firered"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "leafgreen"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "pokemon-tower-4f"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "red"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "blue"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "firered"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "leafgreen"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "pokemon-tower-5f"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "red"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "blue"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "yellow"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "firered"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "leafgreen"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "pokemon-tower-6f"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "red"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "blue"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "yellow"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "firered"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "leafgreen"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "pokemon-tower-7f"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "red"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "blue"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "yellow"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "firered"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "leafgreen"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "kanto-safari-zone-area-1-east"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "yellow"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "kanto-safari-zone-area-2-north"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "yellow"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "kanto-safari-zone-area-3-west"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "yellow"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "sevault-canyon-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "firered"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "leafgreen"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "glittering-cave-unknown-area-303"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "x"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "y"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "johto-safari-zone-zone-desert"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "heartgold"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "soulsilver"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "wela-volcano-park-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "sun"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "ultra-sun"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "ultra-moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  }
+]

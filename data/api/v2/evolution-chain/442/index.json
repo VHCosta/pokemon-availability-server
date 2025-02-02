@@ -1,0 +1,59 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "applin"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "flapple"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "use-item"
+            },
+            "item": {
+              "name": "tart-apple"
+            }
+          }
+        ],
+        "evolves_to": []
+      },
+      {
+        "species": {
+          "name": "appletun"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "use-item"
+            },
+            "item": {
+              "name": "sweet-apple"
+            }
+          }
+        ],
+        "evolves_to": []
+      },
+      {
+        "species": {
+          "name": "dipplin"
+        },
+        "evolution_details": [
+          {}
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "hydrapple"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 442
+}

@@ -1,0 +1,301 @@
+[
+  {
+    "location_area": {
+      "name": "valley-windworks-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-firered"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-firered"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-firered"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-firered"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "sinnoh-route-205-south-towards-floaroma-town"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-firered"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-firered"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-firered"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-firered"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "virbank-complex-outer"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "white-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "virbank-complex-inner"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "white-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "alola-route-12-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "sun"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "blush-mountain-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "sun"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "ultra-sun"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "ultra-moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "mount-hokulani-west"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ultra-sun"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "ultra-moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  }
+]

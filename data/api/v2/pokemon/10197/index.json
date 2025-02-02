@@ -1,0 +1,8 @@
+{
+  "id": 10197,
+  "name": "blastoise-gmax",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10197.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/9/"
+  }
+}

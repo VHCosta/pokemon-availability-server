@@ -1,0 +1,8 @@
+{
+  "id": 798,
+  "name": "kartana",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/798.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/798/"
+  }
+}

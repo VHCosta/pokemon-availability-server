@@ -1,0 +1,24 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "kubfu"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "urshifu"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "tower-of-darkness"
+            }
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 470
+}

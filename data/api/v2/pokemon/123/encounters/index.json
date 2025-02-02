@@ -1,0 +1,232 @@
+[
+  {
+    "location_area": {
+      "name": "sinnoh-route-210-south-towards-solaceon-town"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "sinnoh-route-210-west-towards-celestic-town"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "sinnoh-route-215-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "sinnoh-route-229-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "kanto-safari-zone-middle"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "red"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "firered"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "kanto-safari-zone-area-1-east"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "red"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "yellow"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "firered"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "kanto-safari-zone-area-2-north"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "yellow"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "poke-pelago-elite-four-defeated"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "sun"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "gift"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "gift"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  }
+]

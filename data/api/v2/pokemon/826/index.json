@@ -1,0 +1,8 @@
+{
+  "id": 826,
+  "name": "orbeetle",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/826.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/826/"
+  }
+}

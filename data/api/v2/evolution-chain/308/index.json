@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "litwick"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "lampent"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 41
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "chandelure"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 308
+}

@@ -1,0 +1,857 @@
+[
+  {
+    "location_area": {
+      "name": "sinnoh-route-213-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "sinnoh-route-222-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "mossdeep-city-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ruby"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "sapphire"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "emerald"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "hoenn-route-103-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ruby"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "sapphire"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "emerald"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "hoenn-route-118-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ruby"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "sapphire"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "emerald"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "hoenn-route-122-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ruby"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "sapphire"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "emerald"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "hoenn-route-124-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ruby"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "sapphire"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "emerald"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "hoenn-route-125-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ruby"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "sapphire"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "emerald"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "hoenn-route-126-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ruby"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "sapphire"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "emerald"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "hoenn-route-127-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ruby"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "sapphire"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "emerald"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "hoenn-route-129-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ruby"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "sapphire"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "emerald"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "hoenn-route-130-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ruby"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "sapphire"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "emerald"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "hoenn-route-131-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ruby"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "sapphire"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "emerald"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "hoenn-route-132-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ruby"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "sapphire"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "emerald"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "hoenn-route-133-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ruby"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "sapphire"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "emerald"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "hoenn-route-134-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ruby"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "sapphire"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "emerald"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "pacifidlog-town-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ruby"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "sapphire"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "emerald"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "kalos-route-22-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "x"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "y"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "battle-resort-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "omega-ruby"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "gift"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "alpha-sapphire"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "gift"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "poni-breaker-coast-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "sun"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  }
+]

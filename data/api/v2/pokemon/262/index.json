@@ -1,0 +1,8 @@
+{
+  "id": 262,
+  "name": "mightyena",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/262.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/262/"
+  }
+}

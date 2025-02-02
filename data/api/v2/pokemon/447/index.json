@@ -1,0 +1,8 @@
+{
+  "id": 447,
+  "name": "riolu",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/447.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/447/"
+  }
+}

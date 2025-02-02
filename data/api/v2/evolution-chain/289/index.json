@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "archen"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "archeops"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 37
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 289
+}

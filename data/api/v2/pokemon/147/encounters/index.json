@@ -1,0 +1,942 @@
+[
+  {
+    "location_area": {
+      "name": "mt-coronet-4f"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "dragons-den-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "gold"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "good-rod"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "surf"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "silver"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "good-rod"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "surf"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "crystal"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "gift"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "good-rod"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "surf"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "heartgold"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "good-rod"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "surf"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "surf"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "surf"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "gift"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "gift"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "soulsilver"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "good-rod"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "surf"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "surf"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "surf"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "gift"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "gift"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "johto-route-45-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "gold"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "good-rod"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "silver"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "good-rod"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "crystal"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "good-rod"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "kanto-safari-zone-middle"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "red"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "blue"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "yellow"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "firered"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "leafgreen"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "kanto-safari-zone-area-1-east"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "red"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "blue"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "yellow"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "firered"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "leafgreen"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "kanto-safari-zone-area-2-north"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "red"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "blue"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "yellow"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "firered"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "leafgreen"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "kanto-safari-zone-area-3-west"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "red"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "blue"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "yellow"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "firered"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "leafgreen"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "dragonspiral-tower-outside"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "black"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "white"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "black-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "white-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "kalos-route-21-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "x"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "good-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "y"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "good-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "floccesy-town-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "white-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "gift"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "johto-safari-zone-zone-swamp"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "heartgold"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "soulsilver"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "poni-gauntlet-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "sun"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "ultra-sun"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "ultra-moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "poni-meadow-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "sun"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "ultra-sun"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "ultra-moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "vast-poni-canyon-northwest"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "sun"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "super-rod"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  }
+]

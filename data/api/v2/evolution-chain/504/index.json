@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "finizen"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "palafin"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "other"
+            },
+            "min_level": 38
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 504
+}

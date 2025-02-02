@@ -1,0 +1,8 @@
+{
+  "id": 351,
+  "name": "castform",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/351.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/351/"
+  }
+}

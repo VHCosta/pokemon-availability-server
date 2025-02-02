@@ -1,0 +1,8 @@
+{
+  "id": 121,
+  "name": "starmie",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/121/"
+  }
+}

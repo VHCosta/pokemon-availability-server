@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "elekid"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "electabuzz"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 30
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "electivire"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 60
+}

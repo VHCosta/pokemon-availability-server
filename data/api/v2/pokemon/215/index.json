@@ -1,0 +1,8 @@
+{
+  "id": 215,
+  "name": "sneasel",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/215.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/215/"
+  }
+}

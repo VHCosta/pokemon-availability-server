@@ -1,0 +1,8 @@
+{
+  "id": 203,
+  "name": "girafarig",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/203.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/203/"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "zigzagoon"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "linoone"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 20
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "obstagoon"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 134
+}

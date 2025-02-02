@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "oshawott"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "dewott"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 17
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "samurott"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 258
+}

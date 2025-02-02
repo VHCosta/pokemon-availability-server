@@ -1,0 +1,41 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "slowpoke"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "slowbro"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 37
+          }
+        ],
+        "evolves_to": []
+      },
+      {
+        "species": {
+          "name": "slowking"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "trade"
+            },
+            "held_item": {
+              "name": "kings-rock"
+            }
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 33
+}

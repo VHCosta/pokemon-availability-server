@@ -1,0 +1,36 @@
+{
+  "baby_trigger_item": {
+    "name": "rose-incense",
+    "url": "/api/v2/item/295/"
+  },
+  "chain": {
+    "species": {
+      "name": "budew"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "roselia"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_happiness": 160,
+            "time_of_day": "day"
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "roserade"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 158
+}

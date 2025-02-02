@@ -1,0 +1,35 @@
+[
+  {
+    "location_area": {
+      "name": "ultra-megalopolis-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ultra-sun"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "gift"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "ultra-moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "gift"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  }
+]

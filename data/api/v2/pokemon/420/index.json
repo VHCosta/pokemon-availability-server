@@ -1,0 +1,8 @@
+{
+  "id": 420,
+  "name": "cherubi",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/420.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/420/"
+  }
+}

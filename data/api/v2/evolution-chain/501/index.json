@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "tinkatink"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "tinkatuff"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 24
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "tinkaton"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 501
+}

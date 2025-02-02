@@ -1,0 +1,8 @@
+{
+  "id": 1002,
+  "name": "chien-pao",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1002.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/1002/"
+  }
+}

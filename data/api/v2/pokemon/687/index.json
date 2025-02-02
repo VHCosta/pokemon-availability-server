@@ -1,0 +1,8 @@
+{
+  "id": 687,
+  "name": "malamar",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/687.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/687/"
+  }
+}

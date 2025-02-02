@@ -1,0 +1,2423 @@
+[
+  {
+    "location_area": {
+      "name": "mt-coronet-2f"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "mt-coronet-3f"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "mt-coronet-exterior-snowfall"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "mt-coronet-exterior-blizzard"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "mt-coronet-4f"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "mt-coronet-4f-small-room"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "mt-coronet-5f"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "mt-coronet-6f"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "mt-coronet-1f-from-exterior"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "sendoff-spring-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "turnback-cave-pillar-1"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "turnback-cave-pillar-2"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "turnback-cave-pillar-3"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "turnback-cave-before-pillar-1"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "turnback-cave-between-pillars-1-and-2"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "turnback-cave-between-pillars-2-and-3"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "turnback-cave-after-pillar-3"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "lake-verity-before-galactic-intervention"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "lake-verity-after-galactic-intervention"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "lake-valor-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "lake-acuity-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "diamond"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": [
+              {
+                "name": "slot2-sapphire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "meteor-falls-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "sapphire"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "surf"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "surf"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "surf"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "meteor-falls-back"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "sapphire"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "surf"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "surf"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "surf"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "meteor-falls-b1f"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "sapphire"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "surf"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "surf"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "surf"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "meteor-falls-backsmall-room"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "sapphire"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "surf"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "surf"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "surf"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "giant-chasm-outside"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "black"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "white"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "black-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "white-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "giant-chasm-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "black"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "white"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "black-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "white-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "giant-chasm-forest"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "black"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "white"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "black-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "white-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "giant-chasm-forest-cave"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "black"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "white"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "black-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "white-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "unova-route-13-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "black"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "white"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "black-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "white-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "unova-route-22-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "black-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "white-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "glittering-cave-unknown-area-303"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "x"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "y"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  }
+]

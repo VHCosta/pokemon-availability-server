@@ -1,0 +1,8 @@
+{
+  "id": 604,
+  "name": "eelektross",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/604.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/604/"
+  }
+}

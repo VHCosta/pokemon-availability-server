@@ -1,0 +1,8 @@
+{
+  "id": 10192,
+  "name": "zarude-dada",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10192.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/893/"
+  }
+}

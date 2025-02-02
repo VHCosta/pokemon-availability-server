@@ -1,0 +1,24 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "phantump"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "trevenant"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "trade"
+            }
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 364
+}

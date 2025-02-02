@@ -1,0 +1,8 @@
+{
+  "id": 427,
+  "name": "buneary",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/427.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/427/"
+  }
+}

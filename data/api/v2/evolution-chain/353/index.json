@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "binacle"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "barbaracle"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 39
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 353
+}

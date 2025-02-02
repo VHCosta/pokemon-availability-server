@@ -1,0 +1,8 @@
+{
+  "id": 187,
+  "name": "hoppip",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/187.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/187/"
+  }
+}

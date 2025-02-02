@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "ducklett"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "swanna"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 35
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 295
+}

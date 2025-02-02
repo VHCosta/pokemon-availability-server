@@ -1,0 +1,13 @@
+{
+  "id": 34,
+  "name": "shield",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "name": "Shield"
+    }
+  ]
+}

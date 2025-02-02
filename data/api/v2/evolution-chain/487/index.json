@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "smoliv"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "dolliv"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 25
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "arboliva"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 487
+}

@@ -1,0 +1,8 @@
+{
+  "id": 712,
+  "name": "bergmite",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/712.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/712/"
+  }
+}

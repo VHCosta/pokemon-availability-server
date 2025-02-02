@@ -1,0 +1,8 @@
+{
+  "id": 390,
+  "name": "chimchar",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/390.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/390/"
+  }
+}

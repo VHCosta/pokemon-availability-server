@@ -1,0 +1,8 @@
+{
+  "id": 961,
+  "name": "wugtrio",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/961.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/961/"
+  }
+}

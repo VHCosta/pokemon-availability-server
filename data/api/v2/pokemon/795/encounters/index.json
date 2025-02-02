@@ -1,0 +1,22 @@
+[
+  {
+    "location_area": {
+      "name": "verdant-cavern-trial-site"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  }
+]

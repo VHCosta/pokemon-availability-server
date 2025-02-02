@@ -1,0 +1,8 @@
+{
+  "id": 49,
+  "name": "venomoth",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/49/"
+  }
+}

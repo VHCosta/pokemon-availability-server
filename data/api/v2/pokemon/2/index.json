@@ -1,0 +1,8 @@
+{
+  "id": 2,
+  "name": "ivysaur",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/2/"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "magikarp"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "gyarados"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 20
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 64
+}

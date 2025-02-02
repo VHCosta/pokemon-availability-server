@@ -1,0 +1,8 @@
+{
+  "id": 930,
+  "name": "arboliva",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/930.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/930/"
+  }
+}

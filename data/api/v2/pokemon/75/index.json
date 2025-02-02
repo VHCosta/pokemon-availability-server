@@ -1,0 +1,8 @@
+{
+  "id": 75,
+  "name": "graveler",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/75/"
+  }
+}

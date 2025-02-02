@@ -1,0 +1,8 @@
+{
+  "id": 395,
+  "name": "empoleon",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/395.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/395/"
+  }
+}

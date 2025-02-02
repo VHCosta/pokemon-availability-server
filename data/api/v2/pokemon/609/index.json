@@ -1,0 +1,8 @@
+{
+  "id": 609,
+  "name": "chandelure",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/609.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/609/"
+  }
+}

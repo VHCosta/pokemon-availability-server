@@ -1,0 +1,8 @@
+{
+  "id": 98,
+  "name": "krabby",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/98/"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": 4,
+  "name": "shed",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "name": "Shed"
+    }
+  ]
+}

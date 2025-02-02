@@ -1,0 +1,13 @@
+{
+  "id": 42,
+  "name": "the-teal-mask",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "name": "The teal mask"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": 43,
+  "name": "the-indigo-disk",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "name": "The indigo disk"
+    }
+  ]
+}

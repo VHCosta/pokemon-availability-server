@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "sizzlipede"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "centiskorch"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 28
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 447
+}

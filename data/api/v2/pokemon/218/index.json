@@ -1,0 +1,8 @@
+{
+  "id": 218,
+  "name": "slugma",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/218.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/218/"
+  }
+}

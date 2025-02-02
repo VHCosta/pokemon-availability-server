@@ -1,0 +1,24 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "nosepass"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "probopass"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            }
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 147
+}

@@ -1,0 +1,8 @@
+{
+  "id": 953,
+  "name": "rellor",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/953.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/953/"
+  }
+}

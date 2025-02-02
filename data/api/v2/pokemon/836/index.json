@@ -1,0 +1,8 @@
+{
+  "id": 836,
+  "name": "boltund",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/836.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/836/"
+  }
+}

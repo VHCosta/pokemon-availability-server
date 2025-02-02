@@ -1,0 +1,8 @@
+{
+  "id": 10264,
+  "name": "koraidon-limited-build",
+  "sprite": null,
+  "species": {
+    "url": "/api/v2/pokemon-species/1007/"
+  }
+}

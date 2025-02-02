@@ -1,0 +1,24 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "farfetchd"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "sirfetchd"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "three-critical-hits"
+            }
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 35
+}

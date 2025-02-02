@@ -1,0 +1,8 @@
+{
+  "id": 321,
+  "name": "wailord",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/321.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/321/"
+  }
+}

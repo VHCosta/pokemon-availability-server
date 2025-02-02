@@ -1,0 +1,8 @@
+{
+  "id": 316,
+  "name": "gulpin",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/316.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/316/"
+  }
+}

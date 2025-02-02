@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "machop"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "machoke"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 28
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "machamp"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 28
+}

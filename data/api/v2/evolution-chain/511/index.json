@@ -1,0 +1,27 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "cetoddle"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "cetitan"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "use-item"
+            },
+            "item": {
+              "name": "ice-stone"
+            }
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 511
+}

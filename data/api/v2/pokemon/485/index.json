@@ -1,0 +1,8 @@
+{
+  "id": 485,
+  "name": "heatran",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/485.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/485/"
+  }
+}

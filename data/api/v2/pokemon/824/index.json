@@ -1,0 +1,8 @@
+{
+  "id": 824,
+  "name": "blipbug",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/824.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/824/"
+  }
+}

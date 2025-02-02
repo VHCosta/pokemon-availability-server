@@ -1,0 +1,27 @@
+{
+  "baby_trigger_item": {
+    "name": "rock-incense",
+    "url": "/api/v2/item/292/"
+  },
+  "chain": {
+    "species": {
+      "name": "bonsly"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "sudowoodo"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            }
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 91
+}

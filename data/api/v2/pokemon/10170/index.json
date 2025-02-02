@@ -1,0 +1,8 @@
+{
+  "id": 10170,
+  "name": "zapdos-galar",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10170.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/145/"
+  }
+}

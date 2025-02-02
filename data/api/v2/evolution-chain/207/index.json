@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "bidoof"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "bibarel"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 15
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 207
+}

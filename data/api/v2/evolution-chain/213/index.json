@@ -1,0 +1,39 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "burmy"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "wormadam"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 20
+          }
+        ],
+        "evolves_to": []
+      },
+      {
+        "species": {
+          "name": "mothim"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 20
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 213
+}

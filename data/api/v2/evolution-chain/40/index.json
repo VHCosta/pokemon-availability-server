@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "gastly"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "haunter"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 25
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "gengar"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 40
+}

@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "igglybuff"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "jigglypuff"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_happiness": 160
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "wigglytuff"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 16
+}

@@ -1,0 +1,27 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "cottonee"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "whimsicott"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "use-item"
+            },
+            "item": {
+              "name": "sun-stone"
+            }
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 278
+}

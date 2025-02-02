@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "tynamo"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "eelektrik"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 39
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "eelektross"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 306
+}

@@ -1,0 +1,53 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "wurmple"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "silcoon"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 7
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "beautifly"
+            },
+            "evolves_to": []
+          }
+        ]
+      },
+      {
+        "species": {
+          "name": "cascoon"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 7
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "dustox"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 135
+}

@@ -1,0 +1,8 @@
+{
+  "id": 1015,
+  "name": "munkidori",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1015.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/1015/"
+  }
+}

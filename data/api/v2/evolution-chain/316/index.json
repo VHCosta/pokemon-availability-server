@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "golett"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "golurk"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 43
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 316
+}

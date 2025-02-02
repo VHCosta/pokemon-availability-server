@@ -1,0 +1,39 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "wooper"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "quagsire"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 20
+          }
+        ],
+        "evolves_to": []
+      },
+      {
+        "species": {
+          "name": "clodsire"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 20
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 96
+}

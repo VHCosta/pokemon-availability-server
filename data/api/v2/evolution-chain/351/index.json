@@ -1,0 +1,27 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "swirlix"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "slurpuff"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "trade"
+            },
+            "held_item": {
+              "name": "whipped-dream"
+            }
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 351
+}

@@ -1,0 +1,20 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "phione"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "manaphy"
+        },
+        "evolution_details": [
+          {}
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 250
+}

@@ -1,0 +1,8 @@
+{
+  "id": 97,
+  "name": "hypno",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/97/"
+  }
+}

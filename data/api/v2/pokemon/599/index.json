@@ -1,0 +1,8 @@
+{
+  "id": 599,
+  "name": "klink",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/599.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/599/"
+  }
+}

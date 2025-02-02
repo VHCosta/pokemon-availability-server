@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "lillipup"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "herdier"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 16
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "stoutland"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 260
+}

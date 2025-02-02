@@ -1,0 +1,13 @@
+{
+  "id": 16,
+  "name": "soulsilver",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "name": "SoulSilver"
+    }
+  ]
+}

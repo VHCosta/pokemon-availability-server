@@ -1,0 +1,8 @@
+{
+  "id": 10241,
+  "name": "sliggoo-hisui",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10241.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/705/"
+  }
+}

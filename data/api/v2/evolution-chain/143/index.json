@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "slakoth"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "vigoroth"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 18
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "slaking"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 143
+}

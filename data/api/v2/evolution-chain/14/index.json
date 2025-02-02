@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "cleffa"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "clefairy"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_happiness": 160
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "clefable"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 14
+}

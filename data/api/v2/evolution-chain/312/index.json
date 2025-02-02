@@ -1,0 +1,24 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "shelmet"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "accelgor"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "trade"
+            }
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 312
+}

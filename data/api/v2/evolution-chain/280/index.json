@@ -1,0 +1,24 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "basculin"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "basculegion"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "recoil-damage"
+            }
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 280
+}

@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "nacli"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "naclstack"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 24
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "garganacl"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 489
+}

@@ -1,0 +1,24 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "bramblin"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "brambleghast"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "other"
+            }
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 495
+}

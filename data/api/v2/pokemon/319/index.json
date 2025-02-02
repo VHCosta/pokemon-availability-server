@@ -1,0 +1,8 @@
+{
+  "id": 319,
+  "name": "sharpedo",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/319.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/319/"
+  }
+}

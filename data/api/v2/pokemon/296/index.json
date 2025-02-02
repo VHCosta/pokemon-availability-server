@@ -1,0 +1,8 @@
+{
+  "id": 296,
+  "name": "makuhita",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/296.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/296/"
+  }
+}

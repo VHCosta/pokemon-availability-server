@@ -1,0 +1,8 @@
+{
+  "id": 1016,
+  "name": "fezandipiti",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1016.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/1016/"
+  }
+}

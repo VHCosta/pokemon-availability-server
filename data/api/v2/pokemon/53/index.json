@@ -1,0 +1,8 @@
+{
+  "id": 53,
+  "name": "persian",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/53/"
+  }
+}

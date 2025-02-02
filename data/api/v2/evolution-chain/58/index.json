@@ -1,0 +1,43 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "scyther"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "scizor"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "trade"
+            },
+            "held_item": {
+              "name": "metal-coat"
+            }
+          }
+        ],
+        "evolves_to": []
+      },
+      {
+        "species": {
+          "name": "kleavor"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "use-item"
+            },
+            "item": {
+              "name": "black-augurite"
+            }
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 58
+}

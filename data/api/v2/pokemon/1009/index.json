@@ -1,0 +1,8 @@
+{
+  "id": 1009,
+  "name": "walking-wake",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1009.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/1009/"
+  }
+}

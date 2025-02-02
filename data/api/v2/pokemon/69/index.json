@@ -1,0 +1,8 @@
+{
+  "id": 69,
+  "name": "bellsprout",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/69/"
+  }
+}

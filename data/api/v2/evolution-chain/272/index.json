@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "timburr"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "gurdurr"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 25
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "conkeldurr"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 272
+}

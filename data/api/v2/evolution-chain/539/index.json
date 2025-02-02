@@ -1,0 +1,20 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "poltchageist"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "sinistcha"
+        },
+        "evolution_details": [
+          {}
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 539
+}

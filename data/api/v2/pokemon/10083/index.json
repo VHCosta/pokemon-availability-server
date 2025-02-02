@@ -1,0 +1,8 @@
+{
+  "id": 10083,
+  "name": "pikachu-phd",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10083.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/25/"
+  }
+}

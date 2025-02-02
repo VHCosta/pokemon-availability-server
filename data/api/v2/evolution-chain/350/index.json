@@ -1,0 +1,27 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "spritzee"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "aromatisse"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "trade"
+            },
+            "held_item": {
+              "name": "sachet"
+            }
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 350
+}

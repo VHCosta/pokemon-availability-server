@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "hoppip"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "skiploom"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 18
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "jumpluff"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 92
+}

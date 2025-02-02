@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "duskull"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "dusclops"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 37
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "dusknoir"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 182
+}

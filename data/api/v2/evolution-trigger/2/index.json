@@ -1,0 +1,13 @@
+{
+  "id": 2,
+  "name": "trade",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "name": "Trade or Linking Cord"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "cyndaquil"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "quilava"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 14
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "typhlosion"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 80
+}

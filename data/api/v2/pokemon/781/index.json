@@ -1,0 +1,8 @@
+{
+  "id": 781,
+  "name": "dhelmise",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/781.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/781/"
+  }
+}

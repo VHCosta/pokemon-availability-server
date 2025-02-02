@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "pichu"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "pikachu"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_happiness": 220
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "raichu"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 10
+}

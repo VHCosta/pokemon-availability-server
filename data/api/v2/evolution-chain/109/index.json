@@ -1,0 +1,45 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "sneasel"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "weavile"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "time_of_day": "night",
+            "held_item": {
+              "name": "razor-claw"
+            }
+          }
+        ],
+        "evolves_to": []
+      },
+      {
+        "species": {
+          "name": "sneasler"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "time_of_day": "day",
+            "held_item": {
+              "name": "razor-claw"
+            }
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 109
+}

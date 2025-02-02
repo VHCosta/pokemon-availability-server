@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "tandemaus"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "maushold"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "other"
+            },
+            "min_level": 25
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 485
+}

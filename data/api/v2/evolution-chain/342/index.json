@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "scatterbug"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "spewpa"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 9
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "vivillon"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 342
+}

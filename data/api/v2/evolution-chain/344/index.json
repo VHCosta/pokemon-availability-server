@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "flabebe"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "floette"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 19
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "florges"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 344
+}

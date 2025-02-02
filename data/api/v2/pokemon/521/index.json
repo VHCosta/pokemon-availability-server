@@ -1,0 +1,8 @@
+{
+  "id": 521,
+  "name": "unfezant",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/521.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/521/"
+  }
+}

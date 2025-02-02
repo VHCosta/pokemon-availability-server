@@ -1,0 +1,8 @@
+{
+  "id": 490,
+  "name": "manaphy",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/490.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/490/"
+  }
+}

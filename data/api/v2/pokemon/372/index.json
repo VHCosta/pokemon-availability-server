@@ -1,0 +1,8 @@
+{
+  "id": 372,
+  "name": "shelgon",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/372.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/372/"
+  }
+}

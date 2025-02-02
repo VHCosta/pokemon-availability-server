@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "teddiursa"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "ursaring"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 30
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "ursaluna"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 110
+}

@@ -1,0 +1,28 @@
+{
+  "baby_trigger_item": {
+    "name": "full-incense",
+    "url": "/api/v2/item/293/"
+  },
+  "chain": {
+    "species": {
+      "name": "munchlax"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "snorlax"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_happiness": 160
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 72
+}

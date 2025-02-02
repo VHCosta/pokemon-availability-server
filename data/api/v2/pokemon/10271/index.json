@@ -1,0 +1,8 @@
+{
+  "id": 10271,
+  "name": "miraidon-glide-mode",
+  "sprite": null,
+  "species": {
+    "url": "/api/v2/pokemon-species/1008/"
+  }
+}

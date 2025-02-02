@@ -1,0 +1,13 @@
+{
+  "id": 31,
+  "name": "lets-go-pikachu",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "name": "Let's Go, Pikachu!"
+    }
+  ]
+}

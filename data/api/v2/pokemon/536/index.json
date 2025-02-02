@@ -1,0 +1,8 @@
+{
+  "id": 536,
+  "name": "palpitoad",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/536.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/536/"
+  }
+}

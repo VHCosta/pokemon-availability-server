@@ -1,0 +1,8 @@
+{
+  "id": 1004,
+  "name": "chi-yu",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1004.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/1004/"
+  }
+}

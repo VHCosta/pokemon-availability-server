@@ -1,0 +1,26 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "snom"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "frosmoth"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_happiness": 160,
+            "time_of_day": "night"
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 455
+}

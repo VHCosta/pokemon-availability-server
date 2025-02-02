@@ -1,0 +1,8 @@
+{
+  "id": 573,
+  "name": "cinccino",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/573.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/573/"
+  }
+}

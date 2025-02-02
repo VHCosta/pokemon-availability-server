@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "dreepy"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "drakloak"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 50
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "dragapult"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 466
+}

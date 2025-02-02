@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "rowlet"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "dartrix"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 17
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "decidueye"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 374
+}

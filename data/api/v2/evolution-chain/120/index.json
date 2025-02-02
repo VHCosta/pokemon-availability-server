@@ -1,0 +1,24 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "stantler"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "wyrdeer"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "agile-style-move"
+            }
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 120
+}

@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "magnemite"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "magneton"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 30
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "magnezone"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 34
+}

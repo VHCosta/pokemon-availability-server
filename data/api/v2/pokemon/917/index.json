@@ -1,0 +1,8 @@
+{
+  "id": 917,
+  "name": "tarountula",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/917.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/917/"
+  }
+}

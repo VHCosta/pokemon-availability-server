@@ -1,0 +1,38 @@
+{
+  "baby_trigger_item": {
+    "name": "luck-incense",
+    "url": "/api/v2/item/296/"
+  },
+  "chain": {
+    "species": {
+      "name": "happiny"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "chansey"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "time_of_day": "day",
+            "held_item": {
+              "name": "oval-stone"
+            }
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "blissey"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 51
+}

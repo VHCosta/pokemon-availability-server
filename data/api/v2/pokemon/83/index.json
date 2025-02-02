@@ -1,0 +1,8 @@
+{
+  "id": 83,
+  "name": "farfetchd",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/83/"
+  }
+}

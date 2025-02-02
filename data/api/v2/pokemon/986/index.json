@@ -1,0 +1,8 @@
+{
+  "id": 986,
+  "name": "brute-bonnet",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/986.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/986/"
+  }
+}

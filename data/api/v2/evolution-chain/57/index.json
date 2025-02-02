@@ -1,0 +1,34 @@
+{
+  "baby_trigger_item": {
+    "name": "odd-incense",
+    "url": "/api/v2/item/291/"
+  },
+  "chain": {
+    "species": {
+      "name": "mime-jr"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "mr-mime"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            }
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "mr-rime"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 57
+}

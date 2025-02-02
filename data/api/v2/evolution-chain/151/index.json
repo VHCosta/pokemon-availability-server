@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "aron"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "lairon"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 32
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "aggron"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 151
+}

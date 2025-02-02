@@ -1,0 +1,8 @@
+{
+  "id": 722,
+  "name": "rowlet",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/722.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/722/"
+  }
+}

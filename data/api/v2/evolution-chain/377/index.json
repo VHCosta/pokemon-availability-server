@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "pikipek"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "trumbeak"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 14
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "toucannon"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 377
+}

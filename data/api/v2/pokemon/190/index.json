@@ -1,0 +1,8 @@
+{
+  "id": 190,
+  "name": "aipom",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/190.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/190/"
+  }
+}

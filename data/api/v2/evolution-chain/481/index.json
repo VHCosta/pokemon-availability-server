@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "lechonk"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "oinkologne"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 18
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 481
+}

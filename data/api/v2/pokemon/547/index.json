@@ -1,0 +1,8 @@
+{
+  "id": 547,
+  "name": "whimsicott",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/547.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/547/"
+  }
+}

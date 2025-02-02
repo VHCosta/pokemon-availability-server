@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "surskit"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "masquerain"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 22
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 141
+}

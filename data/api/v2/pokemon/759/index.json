@@ -1,0 +1,8 @@
+{
+  "id": 759,
+  "name": "stufful",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/759.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/759/"
+  }
+}

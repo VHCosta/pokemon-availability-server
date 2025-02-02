@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "lotad"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "lombre"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 14
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "ludicolo"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 136
+}

@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "honedge"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "doublade"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 35
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "aegislash"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 349
+}

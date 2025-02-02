@@ -1,0 +1,8 @@
+{
+  "id": 10278,
+  "name": "frillish-female",
+  "sprite": null,
+  "species": {
+    "url": "/api/v2/pokemon-species/592/"
+  }
+}

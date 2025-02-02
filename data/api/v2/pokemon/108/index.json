@@ -1,0 +1,8 @@
+{
+  "id": 108,
+  "name": "lickitung",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/108/"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": 912,
+  "name": "quaxly",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/912.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/912/"
+  }
+}

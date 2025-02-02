@@ -1,0 +1,8 @@
+{
+  "id": 349,
+  "name": "feebas",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/349.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/349/"
+  }
+}

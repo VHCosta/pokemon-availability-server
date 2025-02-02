@@ -1,0 +1,8 @@
+{
+  "id": 10092,
+  "name": "raticate-alola",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10092.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/20/"
+  }
+}

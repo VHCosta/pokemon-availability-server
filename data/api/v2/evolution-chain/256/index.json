@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "snivy"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "servine"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 17
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "serperior"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 256
+}

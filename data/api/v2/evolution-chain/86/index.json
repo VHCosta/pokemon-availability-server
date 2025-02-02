@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "chinchou"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "lanturn"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 27
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 86
+}

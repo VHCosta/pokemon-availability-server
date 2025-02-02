@@ -1,0 +1,38 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "yamask"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "cofagrigus"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 34
+          }
+        ],
+        "evolves_to": []
+      },
+      {
+        "species": {
+          "name": "runerigus"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "take-damage"
+            }
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 287
+}

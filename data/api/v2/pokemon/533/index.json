@@ -1,0 +1,8 @@
+{
+  "id": 533,
+  "name": "gurdurr",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/533.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/533/"
+  }
+}

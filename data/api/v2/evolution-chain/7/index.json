@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "rattata"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "raticate"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 20
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 7
+}

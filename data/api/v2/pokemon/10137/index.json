@@ -1,0 +1,8 @@
+{
+  "id": 10137,
+  "name": "minior-orange",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10137.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/774/"
+  }
+}

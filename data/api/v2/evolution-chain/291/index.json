@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "zorua"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "zoroark"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 30
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 291
+}

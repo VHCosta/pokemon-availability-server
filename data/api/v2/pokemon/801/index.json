@@ -1,0 +1,8 @@
+{
+  "id": 801,
+  "name": "magearna",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/801.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/801/"
+  }
+}

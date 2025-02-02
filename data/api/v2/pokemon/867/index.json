@@ -1,0 +1,8 @@
+{
+  "id": 867,
+  "name": "runerigus",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/867.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/867/"
+  }
+}

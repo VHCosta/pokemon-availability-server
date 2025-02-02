@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "impidimp"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "morgrem"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 32
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "grimmsnarl"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 451
+}

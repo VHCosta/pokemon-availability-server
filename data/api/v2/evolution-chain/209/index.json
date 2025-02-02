@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "shinx"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "luxio"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 15
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "luxray"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 209
+}

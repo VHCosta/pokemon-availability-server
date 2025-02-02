@@ -1,0 +1,8 @@
+{
+  "id": 550,
+  "name": "basculin-red-striped",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/550.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/550/"
+  }
+}

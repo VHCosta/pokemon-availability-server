@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "rhyhorn"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "rhydon"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 42
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "rhyperior"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 50
+}

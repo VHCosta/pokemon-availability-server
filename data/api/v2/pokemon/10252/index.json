@@ -1,0 +1,8 @@
+{
+  "id": 10252,
+  "name": "tauros-paldea-aqua-breed",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10252.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/128/"
+  }
+}

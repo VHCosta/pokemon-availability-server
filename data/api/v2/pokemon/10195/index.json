@@ -1,0 +1,8 @@
+{
+  "id": 10195,
+  "name": "venusaur-gmax",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10195.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/3/"
+  }
+}

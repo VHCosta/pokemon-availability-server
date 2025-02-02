@@ -1,0 +1,8 @@
+{
+  "id": 925,
+  "name": "maushold-family-of-four",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/925.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/925/"
+  }
+}

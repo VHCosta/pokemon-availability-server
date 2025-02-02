@@ -1,0 +1,8 @@
+{
+  "id": 882,
+  "name": "dracovish",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/882.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/882/"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "sandile"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "krokorok"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 29
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "krookodile"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 281
+}

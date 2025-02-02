@@ -1,0 +1,43 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "clamperl"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "huntail"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "trade"
+            },
+            "held_item": {
+              "name": "deep-sea-tooth"
+            }
+          }
+        ],
+        "evolves_to": []
+      },
+      {
+        "species": {
+          "name": "gorebyss"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "trade"
+            },
+            "held_item": {
+              "name": "deep-sea-scale"
+            }
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 188
+}

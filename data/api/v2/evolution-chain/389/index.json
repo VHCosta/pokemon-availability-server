@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "morelull"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "shiinotic"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 24
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 389
+}

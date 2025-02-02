@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "jangmo-o"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "hakamo-o"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 35
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "kommo-o"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 408
+}

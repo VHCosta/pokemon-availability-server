@@ -1,0 +1,8 @@
+{
+  "id": 841,
+  "name": "flapple",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/841.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/841/"
+  }
+}

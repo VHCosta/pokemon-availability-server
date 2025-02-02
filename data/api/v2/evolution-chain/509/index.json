@@ -1,0 +1,26 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "greavard"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "houndstone"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 30,
+            "time_of_day": "night"
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 509
+}

@@ -1,0 +1,24 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "rellor"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "rabsca"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "other"
+            }
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 499
+}

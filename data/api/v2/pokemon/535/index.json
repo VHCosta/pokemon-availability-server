@@ -1,0 +1,8 @@
+{
+  "id": 535,
+  "name": "tympole",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/535.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/535/"
+  }
+}

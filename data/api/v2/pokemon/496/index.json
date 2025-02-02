@@ -1,0 +1,8 @@
+{
+  "id": 496,
+  "name": "servine",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/496.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/496/"
+  }
+}

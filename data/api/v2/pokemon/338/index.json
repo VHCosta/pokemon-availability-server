@@ -1,0 +1,8 @@
+{
+  "id": 338,
+  "name": "solrock",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/338.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/338/"
+  }
+}

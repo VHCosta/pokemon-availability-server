@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "seedot"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "nuzleaf"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 14
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "shiftry"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 137
+}

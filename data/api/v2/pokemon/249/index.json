@@ -1,0 +1,8 @@
+{
+  "id": 249,
+  "name": "lugia",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/249.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/249/"
+  }
+}

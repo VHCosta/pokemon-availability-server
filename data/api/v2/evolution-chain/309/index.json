@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "axew"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "fraxure"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 38
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "haxorus"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 309
+}

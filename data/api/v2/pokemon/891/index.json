@@ -1,0 +1,8 @@
+{
+  "id": 891,
+  "name": "kubfu",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/891.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/891/"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": 883,
+  "name": "arctovish",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/883.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/883/"
+  }
+}

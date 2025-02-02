@@ -1,0 +1,8 @@
+{
+  "id": 10272,
+  "name": "ursaluna-bloodmoon",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10272.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/901/"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "litten"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "torracat"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 17
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "incineroar"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 375
+}

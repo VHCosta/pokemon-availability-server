@@ -1,0 +1,8 @@
+{
+  "id": 335,
+  "name": "zangoose",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/335.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/335/"
+  }
+}

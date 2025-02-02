@@ -1,0 +1,13 @@
+{
+  "id": 30,
+  "name": "ultra-moon",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "name": "Ultra Moon"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": 10185,
+  "name": "eiscue-noice",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10185.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/875/"
+  }
+}

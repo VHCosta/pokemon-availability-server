@@ -1,0 +1,8 @@
+{
+  "id": 181,
+  "name": "ampharos",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/181.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/181/"
+  }
+}

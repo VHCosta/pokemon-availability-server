@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "deerling"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "sawsbuck"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 34
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 297
+}

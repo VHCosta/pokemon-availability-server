@@ -1,0 +1,8 @@
+{
+  "id": 10163,
+  "name": "rapidash-galar",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10163.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/78/"
+  }
+}

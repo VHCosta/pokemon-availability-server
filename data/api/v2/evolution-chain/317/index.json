@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "pawniard"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "bisharp"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 52
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "kingambit"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 317
+}

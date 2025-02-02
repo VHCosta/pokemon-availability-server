@@ -1,0 +1,8 @@
+{
+  "id": 10179,
+  "name": "yamask-galar",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10179.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/562/"
+  }
+}

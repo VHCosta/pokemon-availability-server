@@ -1,0 +1,8 @@
+{
+  "id": 117,
+  "name": "seadra",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/117/"
+  }
+}

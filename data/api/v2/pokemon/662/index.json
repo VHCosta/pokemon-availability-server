@@ -1,0 +1,8 @@
+{
+  "id": 662,
+  "name": "fletchinder",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/662.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/662/"
+  }
+}

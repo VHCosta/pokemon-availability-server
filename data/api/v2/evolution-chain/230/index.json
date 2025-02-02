@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "gible"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "gabite"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 24
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "garchomp"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 230
+}

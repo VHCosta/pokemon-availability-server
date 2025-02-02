@@ -1,0 +1,8 @@
+{
+  "id": 842,
+  "name": "appletun",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/842.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/842/"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": 616,
+  "name": "shelmet",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/616.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/616/"
+  }
+}

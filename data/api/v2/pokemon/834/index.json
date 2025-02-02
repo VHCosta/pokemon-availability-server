@@ -1,0 +1,8 @@
+{
+  "id": 834,
+  "name": "drednaw",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/834.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/834/"
+  }
+}

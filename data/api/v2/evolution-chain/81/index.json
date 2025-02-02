@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "totodile"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "croconaw"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 18
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "feraligatr"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 81
+}

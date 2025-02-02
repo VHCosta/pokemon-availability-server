@@ -1,0 +1,20 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "duraludon"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "archaludon"
+        },
+        "evolution_details": [
+          {}
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 465
+}

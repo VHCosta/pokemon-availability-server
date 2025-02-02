@@ -1,0 +1,8 @@
+{
+  "id": 10267,
+  "name": "koraidon-gliding-build",
+  "sprite": null,
+  "species": {
+    "url": "/api/v2/pokemon-species/1007/"
+  }
+}

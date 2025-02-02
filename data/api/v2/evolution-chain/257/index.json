@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "tepig"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "pignite"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 17
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "emboar"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 257
+}

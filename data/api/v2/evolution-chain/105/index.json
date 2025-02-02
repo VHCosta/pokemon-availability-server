@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "snubbull"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "granbull"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 23
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 105
+}

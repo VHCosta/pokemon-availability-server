@@ -1,0 +1,8 @@
+{
+  "id": 437,
+  "name": "bronzong",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/437.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/437/"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "swinub"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "piloswine"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 33
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "mamoswine"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 112
+}

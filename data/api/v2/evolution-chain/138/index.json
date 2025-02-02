@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "taillow"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "swellow"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 22
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 138
+}

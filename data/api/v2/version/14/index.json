@@ -1,0 +1,13 @@
+{
+  "id": 14,
+  "name": "platinum",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "name": "Platinum"
+    }
+  ]
+}

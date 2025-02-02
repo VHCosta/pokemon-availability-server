@@ -1,0 +1,8 @@
+{
+  "id": 524,
+  "name": "roggenrola",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/524.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/524/"
+  }
+}

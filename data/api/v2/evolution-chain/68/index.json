@@ -1,0 +1,34 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "porygon"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "porygon2"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "trade"
+            },
+            "held_item": {
+              "name": "up-grade"
+            }
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "porygon-z"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 68
+}

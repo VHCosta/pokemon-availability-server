@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "squirtle"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "wartortle"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 16
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "blastoise"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 3
+}

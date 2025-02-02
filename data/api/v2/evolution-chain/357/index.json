@@ -1,0 +1,26 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "tyrunt"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "tyrantrum"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 39,
+            "time_of_day": "day"
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 357
+}

@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "turtwig"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "grotle"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 18
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "torterra"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 203
+}

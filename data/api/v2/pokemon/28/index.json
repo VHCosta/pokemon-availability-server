@@ -1,0 +1,8 @@
+{
+  "id": 28,
+  "name": "sandslash",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/28/"
+  }
+}

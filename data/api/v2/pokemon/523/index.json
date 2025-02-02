@@ -1,0 +1,8 @@
+{
+  "id": 523,
+  "name": "zebstrika",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/523.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/523/"
+  }
+}

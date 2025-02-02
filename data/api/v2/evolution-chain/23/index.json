@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "psyduck"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "golduck"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 33
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 23
+}

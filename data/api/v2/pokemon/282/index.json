@@ -1,0 +1,8 @@
+{
+  "id": 282,
+  "name": "gardevoir",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/282.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/282/"
+  }
+}

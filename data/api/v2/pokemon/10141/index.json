@@ -1,0 +1,8 @@
+{
+  "id": 10141,
+  "name": "minior-indigo",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10141.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/774/"
+  }
+}

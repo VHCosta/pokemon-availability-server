@@ -1,0 +1,8 @@
+{
+  "id": 10162,
+  "name": "ponyta-galar",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10162.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/77/"
+  }
+}

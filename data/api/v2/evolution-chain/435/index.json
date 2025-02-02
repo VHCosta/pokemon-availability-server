@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "blipbug"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "dottler"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 10
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "orbeetle"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 435
+}

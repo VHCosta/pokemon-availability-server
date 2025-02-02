@@ -1,0 +1,8 @@
+{
+  "id": 26,
+  "name": "raichu",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/26/"
+  }
+}

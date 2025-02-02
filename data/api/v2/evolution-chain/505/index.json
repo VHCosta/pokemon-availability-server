@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "varoom"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "revavroom"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 40
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 505
+}

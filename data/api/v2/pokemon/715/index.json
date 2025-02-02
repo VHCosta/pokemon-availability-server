@@ -1,0 +1,8 @@
+{
+  "id": 715,
+  "name": "noivern",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/715.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/715/"
+  }
+}

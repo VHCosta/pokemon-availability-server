@@ -1,0 +1,8 @@
+{
+  "id": 138,
+  "name": "omanyte",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/138/"
+  }
+}

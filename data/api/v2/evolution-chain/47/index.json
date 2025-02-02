@@ -1,0 +1,53 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "tyrogue"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "hitmonlee"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 20
+          }
+        ],
+        "evolves_to": []
+      },
+      {
+        "species": {
+          "name": "hitmonchan"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 20
+          }
+        ],
+        "evolves_to": []
+      },
+      {
+        "species": {
+          "name": "hitmontop"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 20
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 47
+}

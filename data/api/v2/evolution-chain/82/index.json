@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "sentret"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "furret"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 15
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 82
+}

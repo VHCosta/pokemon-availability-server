@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "shroodle"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "grafaiai"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 28
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 494
+}

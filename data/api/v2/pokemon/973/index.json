@@ -1,0 +1,8 @@
+{
+  "id": 973,
+  "name": "flamigo",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/973.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/973/"
+  }
+}

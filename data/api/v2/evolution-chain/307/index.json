@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "elgyem"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "beheeyem"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 42
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 307
+}

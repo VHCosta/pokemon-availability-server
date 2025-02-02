@@ -1,0 +1,8 @@
+{
+  "id": 173,
+  "name": "cleffa",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/173.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/173/"
+  }
+}

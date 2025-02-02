@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "chimchar"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "monferno"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 14
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "infernape"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 204
+}

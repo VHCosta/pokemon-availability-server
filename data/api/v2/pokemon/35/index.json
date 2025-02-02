@@ -1,0 +1,8 @@
+{
+  "id": 35,
+  "name": "clefairy",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/35/"
+  }
+}

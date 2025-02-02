@@ -1,0 +1,43 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "charcadet"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "armarouge"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "use-item"
+            },
+            "item": {
+              "name": "auspicious-armor"
+            }
+          }
+        ],
+        "evolves_to": []
+      },
+      {
+        "species": {
+          "name": "ceruledge"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "use-item"
+            },
+            "item": {
+              "name": "malicious-armor"
+            }
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 490
+}

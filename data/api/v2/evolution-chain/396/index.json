@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "wimpod"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "golisopod"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 30
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 396
+}

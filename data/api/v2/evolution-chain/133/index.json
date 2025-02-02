@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "poochyena"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "mightyena"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 18
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 133
+}

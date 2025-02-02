@@ -1,0 +1,13 @@
+{
+  "id": 35,
+  "name": "the-isle-of-armor",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "name": "The Isle of Armor"
+    }
+  ]
+}

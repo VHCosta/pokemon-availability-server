@@ -1,0 +1,8 @@
+{
+  "id": 10270,
+  "name": "miraidon-aquatic-mode",
+  "sprite": null,
+  "species": {
+    "url": "/api/v2/pokemon-species/1008/"
+  }
+}

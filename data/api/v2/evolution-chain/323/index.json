@@ -1,0 +1,32 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "deino"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "zweilous"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 50
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "hydreigon"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 323
+}

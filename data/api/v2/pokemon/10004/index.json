@@ -1,0 +1,8 @@
+{
+  "id": 10004,
+  "name": "wormadam-sandy",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10004.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/413/"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": 579,
+  "name": "reuniclus",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/579.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/579/"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "snorunt"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "glalie"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 42
+          }
+        ],
+        "evolves_to": []
+      },
+      {
+        "species": {
+          "name": "froslass"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "use-item"
+            },
+            "item": {
+              "name": "dawn-stone"
+            }
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 186
+}

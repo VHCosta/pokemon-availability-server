@@ -1,0 +1,8 @@
+{
+  "id": 744,
+  "name": "rockruff",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/744.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/744/"
+  }
+}

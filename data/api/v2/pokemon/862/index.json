@@ -1,0 +1,8 @@
+{
+  "id": 862,
+  "name": "obstagoon",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/862.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/862/"
+  }
+}

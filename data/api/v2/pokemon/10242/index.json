@@ -1,0 +1,8 @@
+{
+  "id": 10242,
+  "name": "goodra-hisui",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10242.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/706/"
+  }
+}

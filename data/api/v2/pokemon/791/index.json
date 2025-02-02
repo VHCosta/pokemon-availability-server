@@ -1,0 +1,8 @@
+{
+  "id": 791,
+  "name": "solgaleo",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/791.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/791/"
+  }
+}

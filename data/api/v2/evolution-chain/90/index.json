@@ -1,0 +1,35 @@
+{
+  "baby_trigger_item": {
+    "name": "sea-incense",
+    "url": "/api/v2/item/231/"
+  },
+  "chain": {
+    "species": {
+      "name": "azurill"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "marill"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_happiness": 160
+          }
+        ],
+        "evolves_to": [
+          {
+            "species": {
+              "name": "azumarill"
+            },
+            "evolves_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "id": 90
+}

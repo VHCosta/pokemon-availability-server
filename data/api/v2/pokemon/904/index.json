@@ -1,0 +1,8 @@
+{
+  "id": 904,
+  "name": "overqwil",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/904.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/904/"
+  }
+}

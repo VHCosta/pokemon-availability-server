@@ -1,0 +1,8 @@
+{
+  "id": 38,
+  "name": "ninetales",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/38/"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": 749,
+  "name": "mudbray",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/749.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/749/"
+  }
+}

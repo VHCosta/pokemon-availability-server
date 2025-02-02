@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "shellos"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "gastrodon"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 30
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 218
+}

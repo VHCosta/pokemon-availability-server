@@ -1,0 +1,25 @@
+{
+  "baby_trigger_item": null,
+  "chain": {
+    "species": {
+      "name": "natu"
+    },
+    "evolves_to": [
+      {
+        "species": {
+          "name": "xatu"
+        },
+        "evolution_details": [
+          {
+            "trigger": {
+              "name": "level-up"
+            },
+            "min_level": 25
+          }
+        ],
+        "evolves_to": []
+      }
+    ]
+  },
+  "id": 88
+}

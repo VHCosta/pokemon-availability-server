@@ -1,0 +1,8 @@
+{
+  "id": 10143,
+  "name": "mimikyu-busted",
+  "sprite": null,
+  "species": {
+    "url": "/api/v2/pokemon-species/778/"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": 236,
+  "name": "tyrogue",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/236.png",
+  "species": {
+    "url": "/api/v2/pokemon-species/236/"
+  }
+}
