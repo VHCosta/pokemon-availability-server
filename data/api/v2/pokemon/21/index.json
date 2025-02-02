@@ -1,7 +1,7 @@
 {
   "id": 21,
   "name": "spearow",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/21.png",
   "species": {
     "url": "/api/v2/pokemon-species/21/"
   }

@@ -1,7 +1,7 @@
 {
   "id": 411,
   "name": "bastiodon",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/411.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/411.png",
   "species": {
     "url": "/api/v2/pokemon-species/411/"
   }

@@ -1,7 +1,7 @@
 {
   "id": 10191,
   "name": "urshifu-rapid-strike",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10191.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10191.png",
   "species": {
     "url": "/api/v2/pokemon-species/892/"
   }

@@ -1,7 +1,7 @@
 {
   "id": 695,
   "name": "heliolisk",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/695.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/695.png",
   "species": {
     "url": "/api/v2/pokemon-species/695/"
   }

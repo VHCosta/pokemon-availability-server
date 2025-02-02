@@ -1,7 +1,7 @@
 {
   "id": 400,
   "name": "bibarel",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/400.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/400.png",
   "species": {
     "url": "/api/v2/pokemon-species/400/"
   }

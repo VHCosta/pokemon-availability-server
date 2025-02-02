@@ -1,7 +1,7 @@
 {
   "id": 17,
   "name": "pidgeotto",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/17.png",
   "species": {
     "url": "/api/v2/pokemon-species/17/"
   }

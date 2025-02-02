@@ -1,7 +1,7 @@
 {
   "id": 386,
   "name": "deoxys-normal",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/386.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/386.png",
   "species": {
     "url": "/api/v2/pokemon-species/386/"
   }

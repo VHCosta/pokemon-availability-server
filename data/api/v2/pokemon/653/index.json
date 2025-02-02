@@ -1,7 +1,7 @@
 {
   "id": 653,
   "name": "fennekin",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/653.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/653.png",
   "species": {
     "url": "/api/v2/pokemon-species/653/"
   }

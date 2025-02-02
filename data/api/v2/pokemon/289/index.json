@@ -1,7 +1,7 @@
 {
   "id": 289,
   "name": "slaking",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/289.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/289.png",
   "species": {
     "url": "/api/v2/pokemon-species/289/"
   }

@@ -1,7 +1,7 @@
 {
   "id": 1005,
   "name": "roaring-moon",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1005.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/1005.png",
   "species": {
     "url": "/api/v2/pokemon-species/1005/"
   }

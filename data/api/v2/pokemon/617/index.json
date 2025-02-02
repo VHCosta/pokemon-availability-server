@@ -1,7 +1,7 @@
 {
   "id": 617,
   "name": "accelgor",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/617.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/617.png",
   "species": {
     "url": "/api/v2/pokemon-species/617/"
   }

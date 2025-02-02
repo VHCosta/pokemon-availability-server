@@ -1,7 +1,7 @@
 {
   "id": 719,
   "name": "diancie",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/719.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/719.png",
   "species": {
     "url": "/api/v2/pokemon-species/719/"
   }

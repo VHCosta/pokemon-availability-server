@@ -1,7 +1,7 @@
 {
   "id": 638,
   "name": "cobalion",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/638.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/638.png",
   "species": {
     "url": "/api/v2/pokemon-species/638/"
   }

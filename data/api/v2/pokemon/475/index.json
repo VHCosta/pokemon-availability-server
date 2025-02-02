@@ -1,7 +1,7 @@
 {
   "id": 475,
   "name": "gallade",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/475.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/475.png",
   "species": {
     "url": "/api/v2/pokemon-species/475/"
   }

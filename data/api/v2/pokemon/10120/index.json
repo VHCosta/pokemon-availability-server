@@ -1,7 +1,7 @@
 {
   "id": 10120,
   "name": "zygarde-complete",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10120.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10120.png",
   "species": {
     "url": "/api/v2/pokemon-species/718/"
   }

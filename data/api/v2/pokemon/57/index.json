@@ -1,7 +1,7 @@
 {
   "id": 57,
   "name": "primeape",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/57.png",
   "species": {
     "url": "/api/v2/pokemon-species/57/"
   }

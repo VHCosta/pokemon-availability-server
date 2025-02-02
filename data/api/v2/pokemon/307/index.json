@@ -1,7 +1,7 @@
 {
   "id": 307,
   "name": "meditite",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/307.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/307.png",
   "species": {
     "url": "/api/v2/pokemon-species/307/"
   }

@@ -1,7 +1,7 @@
 {
   "id": 79,
   "name": "slowpoke",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/79.png",
   "species": {
     "url": "/api/v2/pokemon-species/79/"
   }

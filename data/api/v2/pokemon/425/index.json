@@ -1,7 +1,7 @@
 {
   "id": 425,
   "name": "drifloon",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/425.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/425.png",
   "species": {
     "url": "/api/v2/pokemon-species/425/"
   }

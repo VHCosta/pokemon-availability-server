@@ -1,7 +1,7 @@
 {
   "id": 913,
   "name": "quaxwell",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/913.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/913.png",
   "species": {
     "url": "/api/v2/pokemon-species/913/"
   }

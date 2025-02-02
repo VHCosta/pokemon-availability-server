@@ -1,7 +1,7 @@
 {
   "id": 66,
   "name": "machop",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/66.png",
   "species": {
     "url": "/api/v2/pokemon-species/66/"
   }

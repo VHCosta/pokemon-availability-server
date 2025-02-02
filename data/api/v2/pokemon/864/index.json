@@ -1,7 +1,7 @@
 {
   "id": 864,
   "name": "cursola",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/864.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/864.png",
   "species": {
     "url": "/api/v2/pokemon-species/864/"
   }

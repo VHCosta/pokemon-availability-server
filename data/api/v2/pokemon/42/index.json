@@ -1,7 +1,7 @@
 {
   "id": 42,
   "name": "golbat",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/42.png",
   "species": {
     "url": "/api/v2/pokemon-species/42/"
   }

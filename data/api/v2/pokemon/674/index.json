@@ -1,7 +1,7 @@
 {
   "id": 674,
   "name": "pancham",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/674.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/674.png",
   "species": {
     "url": "/api/v2/pokemon-species/674/"
   }

@@ -1,7 +1,7 @@
 {
   "id": 134,
   "name": "vaporeon",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/134.png",
   "species": {
     "url": "/api/v2/pokemon-species/134/"
   }

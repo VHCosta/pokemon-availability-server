@@ -1,7 +1,7 @@
 {
   "id": 10155,
   "name": "necrozma-dusk",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10155.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10155.png",
   "species": {
     "url": "/api/v2/pokemon-species/800/"
   }

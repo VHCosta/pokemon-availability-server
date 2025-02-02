@@ -1,7 +1,7 @@
 {
   "id": 158,
   "name": "totodile",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/158.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/158.png",
   "species": {
     "url": "/api/v2/pokemon-species/158/"
   }

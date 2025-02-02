@@ -1,7 +1,7 @@
 {
   "id": 887,
   "name": "dragapult",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/887.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/887.png",
   "species": {
     "url": "/api/v2/pokemon-species/887/"
   }

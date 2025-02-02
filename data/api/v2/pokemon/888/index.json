@@ -1,7 +1,7 @@
 {
   "id": 888,
   "name": "zacian",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/888.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/888.png",
   "species": {
     "url": "/api/v2/pokemon-species/888/"
   }

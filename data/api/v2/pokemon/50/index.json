@@ -1,7 +1,7 @@
 {
   "id": 50,
   "name": "diglett",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/50.png",
   "species": {
     "url": "/api/v2/pokemon-species/50/"
   }

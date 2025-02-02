@@ -1,7 +1,7 @@
 {
   "id": 32,
   "name": "nidoran-m",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/32.png",
   "species": {
     "url": "/api/v2/pokemon-species/32/"
   }

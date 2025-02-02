@@ -1,7 +1,7 @@
 {
   "id": 273,
   "name": "seedot",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/273.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/273.png",
   "species": {
     "url": "/api/v2/pokemon-species/273/"
   }

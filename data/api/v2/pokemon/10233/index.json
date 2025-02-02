@@ -1,7 +1,7 @@
 {
   "id": 10233,
   "name": "typhlosion-hisui",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10233.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10233.png",
   "species": {
     "url": "/api/v2/pokemon-species/157/"
   }

@@ -1,7 +1,7 @@
 {
   "id": 819,
   "name": "skwovet",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/819.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/819.png",
   "species": {
     "url": "/api/v2/pokemon-species/819/"
   }

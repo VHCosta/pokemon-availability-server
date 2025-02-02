@@ -1,7 +1,7 @@
 {
   "id": 820,
   "name": "greedent",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/820.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/820.png",
   "species": {
     "url": "/api/v2/pokemon-species/820/"
   }

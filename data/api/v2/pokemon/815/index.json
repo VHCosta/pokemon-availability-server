@@ -1,7 +1,7 @@
 {
   "id": 815,
   "name": "cinderace",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/815.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/815.png",
   "species": {
     "url": "/api/v2/pokemon-species/815/"
   }

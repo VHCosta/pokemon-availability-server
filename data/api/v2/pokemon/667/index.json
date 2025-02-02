@@ -1,7 +1,7 @@
 {
   "id": 667,
   "name": "litleo",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/667.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/667.png",
   "species": {
     "url": "/api/v2/pokemon-species/667/"
   }

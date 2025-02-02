@@ -1,7 +1,7 @@
 {
   "id": 512,
   "name": "simisage",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/512.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/512.png",
   "species": {
     "url": "/api/v2/pokemon-species/512/"
   }

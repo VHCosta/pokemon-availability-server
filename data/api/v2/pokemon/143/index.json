@@ -1,7 +1,7 @@
 {
   "id": 143,
   "name": "snorlax",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/143.png",
   "species": {
     "url": "/api/v2/pokemon-species/143/"
   }

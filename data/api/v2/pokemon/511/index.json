@@ -1,7 +1,7 @@
 {
   "id": 511,
   "name": "pansage",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/511.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/511.png",
   "species": {
     "url": "/api/v2/pokemon-species/511/"
   }

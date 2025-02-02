@@ -1,7 +1,7 @@
 {
   "id": 72,
   "name": "tentacool",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/72.png",
   "species": {
     "url": "/api/v2/pokemon-species/72/"
   }

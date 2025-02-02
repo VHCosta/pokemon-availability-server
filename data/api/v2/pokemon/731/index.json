@@ -1,7 +1,7 @@
 {
   "id": 731,
   "name": "pikipek",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/731.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/731.png",
   "species": {
     "url": "/api/v2/pokemon-species/731/"
   }

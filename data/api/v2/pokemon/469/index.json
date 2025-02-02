@@ -1,7 +1,7 @@
 {
   "id": 469,
   "name": "yanmega",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/469.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/469.png",
   "species": {
     "url": "/api/v2/pokemon-species/469/"
   }

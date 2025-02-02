@@ -1,7 +1,7 @@
 {
   "id": 41,
   "name": "zubat",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/41.png",
   "species": {
     "url": "/api/v2/pokemon-species/41/"
   }

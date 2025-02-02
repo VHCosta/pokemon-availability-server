@@ -1,7 +1,7 @@
 {
   "id": 940,
   "name": "wattrel",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/940.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/940.png",
   "species": {
     "url": "/api/v2/pokemon-species/940/"
   }

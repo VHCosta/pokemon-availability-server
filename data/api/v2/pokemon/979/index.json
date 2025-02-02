@@ -1,7 +1,7 @@
 {
   "id": 979,
   "name": "annihilape",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/979.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/979.png",
   "species": {
     "url": "/api/v2/pokemon-species/979/"
   }

@@ -1,7 +1,7 @@
 {
   "id": 10118,
   "name": "zygarde-10-power-construct",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10118.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10118.png",
   "species": {
     "url": "/api/v2/pokemon-species/718/"
   }

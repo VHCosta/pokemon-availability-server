@@ -1,7 +1,7 @@
 {
   "id": 315,
   "name": "roselia",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/315.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/315.png",
   "species": {
     "url": "/api/v2/pokemon-species/315/"
   }

@@ -1,7 +1,7 @@
 {
   "id": 971,
   "name": "greavard",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/971.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/971.png",
   "species": {
     "url": "/api/v2/pokemon-species/971/"
   }

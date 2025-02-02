@@ -1,7 +1,7 @@
 {
   "id": 555,
   "name": "darmanitan-standard",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/555.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/555.png",
   "species": {
     "url": "/api/v2/pokemon-species/555/"
   }

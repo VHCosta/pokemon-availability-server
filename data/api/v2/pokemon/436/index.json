@@ -1,7 +1,7 @@
 {
   "id": 436,
   "name": "bronzor",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/436.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/436.png",
   "species": {
     "url": "/api/v2/pokemon-species/436/"
   }

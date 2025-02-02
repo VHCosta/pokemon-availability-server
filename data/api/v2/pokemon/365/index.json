@@ -1,7 +1,7 @@
 {
   "id": 365,
   "name": "walrein",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/365.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/365.png",
   "species": {
     "url": "/api/v2/pokemon-species/365/"
   }

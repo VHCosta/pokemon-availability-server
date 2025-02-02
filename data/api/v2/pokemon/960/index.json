@@ -1,7 +1,7 @@
 {
   "id": 960,
   "name": "wiglett",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/960.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/960.png",
   "species": {
     "url": "/api/v2/pokemon-species/960/"
   }

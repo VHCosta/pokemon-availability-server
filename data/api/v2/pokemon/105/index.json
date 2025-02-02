@@ -1,7 +1,7 @@
 {
   "id": 105,
   "name": "marowak",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/105.png",
   "species": {
     "url": "/api/v2/pokemon-species/105/"
   }

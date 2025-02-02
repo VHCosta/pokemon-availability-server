@@ -1,7 +1,7 @@
 {
   "id": 10097,
   "name": "pikachu-unova-cap",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10097.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10097.png",
   "species": {
     "url": "/api/v2/pokemon-species/25/"
   }

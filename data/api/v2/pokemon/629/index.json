@@ -1,7 +1,7 @@
 {
   "id": 629,
   "name": "vullaby",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/629.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/629.png",
   "species": {
     "url": "/api/v2/pokemon-species/629/"
   }

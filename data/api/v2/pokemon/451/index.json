@@ -1,7 +1,7 @@
 {
   "id": 451,
   "name": "skorupi",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/451.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/451.png",
   "species": {
     "url": "/api/v2/pokemon-species/451/"
   }

@@ -1,7 +1,7 @@
 {
   "id": 641,
   "name": "tornadus-incarnate",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/641.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/641.png",
   "species": {
     "url": "/api/v2/pokemon-species/641/"
   }

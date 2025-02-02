@@ -1,7 +1,7 @@
 {
   "id": 30,
   "name": "nidorina",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/30.png",
   "species": {
     "url": "/api/v2/pokemon-species/30/"
   }

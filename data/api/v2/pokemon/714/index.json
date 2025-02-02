@@ -1,7 +1,7 @@
 {
   "id": 714,
   "name": "noibat",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/714.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/714.png",
   "species": {
     "url": "/api/v2/pokemon-species/714/"
   }

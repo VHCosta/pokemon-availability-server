@@ -1,7 +1,7 @@
 {
   "id": 454,
   "name": "toxicroak",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/454.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/454.png",
   "species": {
     "url": "/api/v2/pokemon-species/454/"
   }

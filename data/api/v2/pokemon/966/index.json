@@ -1,7 +1,7 @@
 {
   "id": 966,
   "name": "revavroom",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/966.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/966.png",
   "species": {
     "url": "/api/v2/pokemon-species/966/"
   }

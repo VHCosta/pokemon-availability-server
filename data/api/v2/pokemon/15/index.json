@@ -1,7 +1,7 @@
 {
   "id": 15,
   "name": "beedrill",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/15.png",
   "species": {
     "url": "/api/v2/pokemon-species/15/"
   }

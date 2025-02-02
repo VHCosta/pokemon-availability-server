@@ -1,7 +1,7 @@
 {
   "id": 277,
   "name": "swellow",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/277.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/277.png",
   "species": {
     "url": "/api/v2/pokemon-species/277/"
   }

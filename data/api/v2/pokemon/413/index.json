@@ -1,7 +1,7 @@
 {
   "id": 413,
   "name": "wormadam-plant",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/413.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/413.png",
   "species": {
     "url": "/api/v2/pokemon-species/413/"
   }

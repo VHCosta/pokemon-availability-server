@@ -1,7 +1,7 @@
 {
   "id": 292,
   "name": "shedinja",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/292.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/292.png",
   "species": {
     "url": "/api/v2/pokemon-species/292/"
   }

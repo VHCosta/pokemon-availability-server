@@ -1,7 +1,7 @@
 {
   "id": 530,
   "name": "excadrill",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/530.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/530.png",
   "species": {
     "url": "/api/v2/pokemon-species/530/"
   }

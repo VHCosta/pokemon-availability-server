@@ -1,7 +1,7 @@
 {
   "id": 943,
   "name": "mabosstiff",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/943.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/943.png",
   "species": {
     "url": "/api/v2/pokemon-species/943/"
   }

@@ -1,7 +1,7 @@
 {
   "id": 268,
   "name": "cascoon",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/268.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/268.png",
   "species": {
     "url": "/api/v2/pokemon-species/268/"
   }

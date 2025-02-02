@@ -1,7 +1,7 @@
 {
   "id": 596,
   "name": "galvantula",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/596.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/596.png",
   "species": {
     "url": "/api/v2/pokemon-species/596/"
   }

@@ -1,7 +1,7 @@
 {
   "id": 10234,
   "name": "qwilfish-hisui",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10234.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10234.png",
   "species": {
     "url": "/api/v2/pokemon-species/211/"
   }

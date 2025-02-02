@@ -1,7 +1,7 @@
 {
   "id": 946,
   "name": "bramblin",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/946.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/946.png",
   "species": {
     "url": "/api/v2/pokemon-species/946/"
   }

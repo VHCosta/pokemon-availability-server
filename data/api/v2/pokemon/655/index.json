@@ -1,7 +1,7 @@
 {
   "id": 655,
   "name": "delphox",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/655.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/655.png",
   "species": {
     "url": "/api/v2/pokemon-species/655/"
   }

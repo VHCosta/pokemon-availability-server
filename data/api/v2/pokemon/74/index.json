@@ -1,7 +1,7 @@
 {
   "id": 74,
   "name": "geodude",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/74.png",
   "species": {
     "url": "/api/v2/pokemon-species/74/"
   }

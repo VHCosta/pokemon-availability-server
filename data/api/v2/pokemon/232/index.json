@@ -1,7 +1,7 @@
 {
   "id": 232,
   "name": "donphan",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/232.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/232.png",
   "species": {
     "url": "/api/v2/pokemon-species/232/"
   }

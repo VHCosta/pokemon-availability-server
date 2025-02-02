@@ -1,7 +1,7 @@
 {
   "id": 10066,
   "name": "sableye-mega",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10066.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10066.png",
   "species": {
     "url": "/api/v2/pokemon-species/302/"
   }

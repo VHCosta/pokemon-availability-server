@@ -1,7 +1,7 @@
 {
   "id": 247,
   "name": "pupitar",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/247.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/247.png",
   "species": {
     "url": "/api/v2/pokemon-species/247/"
   }

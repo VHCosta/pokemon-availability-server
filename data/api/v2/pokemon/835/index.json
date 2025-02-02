@@ -1,7 +1,7 @@
 {
   "id": 835,
   "name": "yamper",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/835.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/835.png",
   "species": {
     "url": "/api/v2/pokemon-species/835/"
   }

@@ -1,7 +1,7 @@
 {
   "id": 13,
   "name": "weedle",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/13.png",
   "species": {
     "url": "/api/v2/pokemon-species/13/"
   }

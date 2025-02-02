@@ -1,7 +1,7 @@
 {
   "id": 285,
   "name": "shroomish",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/285.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/285.png",
   "species": {
     "url": "/api/v2/pokemon-species/285/"
   }

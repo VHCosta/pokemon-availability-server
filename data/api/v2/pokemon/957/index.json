@@ -1,7 +1,7 @@
 {
   "id": 957,
   "name": "tinkatink",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/957.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/957.png",
   "species": {
     "url": "/api/v2/pokemon-species/957/"
   }

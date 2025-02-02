@@ -1,7 +1,7 @@
 {
   "id": 471,
   "name": "glaceon",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/471.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/471.png",
   "species": {
     "url": "/api/v2/pokemon-species/471/"
   }

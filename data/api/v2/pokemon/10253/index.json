@@ -1,7 +1,7 @@
 {
   "id": 10253,
   "name": "wooper-paldea",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10253.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10253.png",
   "species": {
     "url": "/api/v2/pokemon-species/194/"
   }

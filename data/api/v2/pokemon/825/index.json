@@ -1,7 +1,7 @@
 {
   "id": 825,
   "name": "dottler",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/825.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/825.png",
   "species": {
     "url": "/api/v2/pokemon-species/825/"
   }

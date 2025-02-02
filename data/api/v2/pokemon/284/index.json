@@ -1,7 +1,7 @@
 {
   "id": 284,
   "name": "masquerain",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/284.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/284.png",
   "species": {
     "url": "/api/v2/pokemon-species/284/"
   }

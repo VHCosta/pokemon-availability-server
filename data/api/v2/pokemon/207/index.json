@@ -1,7 +1,7 @@
 {
   "id": 207,
   "name": "gligar",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/207.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/207.png",
   "species": {
     "url": "/api/v2/pokemon-species/207/"
   }

@@ -1,7 +1,7 @@
 {
   "id": 140,
   "name": "kabuto",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/140.png",
   "species": {
     "url": "/api/v2/pokemon-species/140/"
   }

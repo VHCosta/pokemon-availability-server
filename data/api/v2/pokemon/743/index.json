@@ -1,7 +1,7 @@
 {
   "id": 743,
   "name": "ribombee",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/743.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/743.png",
   "species": {
     "url": "/api/v2/pokemon-species/743/"
   }

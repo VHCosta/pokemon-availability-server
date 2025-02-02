@@ -1,7 +1,7 @@
 {
   "id": 10086,
   "name": "hoopa-unbound",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10086.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10086.png",
   "species": {
     "url": "/api/v2/pokemon-species/720/"
   }

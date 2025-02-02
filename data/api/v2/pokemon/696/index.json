@@ -1,7 +1,7 @@
 {
   "id": 696,
   "name": "tyrunt",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/696.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/696.png",
   "species": {
     "url": "/api/v2/pokemon-species/696/"
   }

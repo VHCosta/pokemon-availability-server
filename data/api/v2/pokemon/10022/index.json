@@ -1,7 +1,7 @@
 {
   "id": 10022,
   "name": "kyurem-black",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10022.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10022.png",
   "species": {
     "url": "/api/v2/pokemon-species/646/"
   }

@@ -1,7 +1,7 @@
 {
   "id": 10044,
   "name": "mewtwo-mega-y",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10044.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10044.png",
   "species": {
     "url": "/api/v2/pokemon-species/150/"
   }

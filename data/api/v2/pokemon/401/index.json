@@ -1,7 +1,7 @@
 {
   "id": 401,
   "name": "kricketot",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/401.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/401.png",
   "species": {
     "url": "/api/v2/pokemon-species/401/"
   }

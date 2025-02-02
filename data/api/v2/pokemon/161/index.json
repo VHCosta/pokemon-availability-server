@@ -1,7 +1,7 @@
 {
   "id": 161,
   "name": "sentret",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/161.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/161.png",
   "species": {
     "url": "/api/v2/pokemon-species/161/"
   }

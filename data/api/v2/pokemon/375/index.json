@@ -1,7 +1,7 @@
 {
   "id": 375,
   "name": "metang",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/375.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/375.png",
   "species": {
     "url": "/api/v2/pokemon-species/375/"
   }

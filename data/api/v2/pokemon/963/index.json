@@ -1,7 +1,7 @@
 {
   "id": 963,
   "name": "finizen",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/963.png",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/963.png",
   "species": {
     "url": "/api/v2/pokemon-species/963/"
   }
