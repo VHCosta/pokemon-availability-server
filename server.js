@@ -101,7 +101,8 @@ const ALLOWED_METHODS = new Set([
   'good-rod',
   'super-rod',
   'headbutt',      // Tree headbutting
-  'rock-smash'     // Rock smashing
+  'rock-smash',    // Rock smashing
+  'slot2'          // Dual-slot mode access
 ]);
 
 // Exclude these methods
@@ -142,6 +143,19 @@ const processEncounters = (encountersData, selectedVersions) => {
 
           if (slot2Game && GAME_MAP[slot2Game]) {
             slot2Games.add(slot2Game);
+            
+            // Add slot2 method for Gen 4 games when slot2 is Gen 3
+            if (GAME_GENERATIONS[versionName] === 4 && GAME_GENERATIONS[slot2Game] === 3) {
+              const formattedGameName = slot2Game.charAt(0).toUpperCase() + slot2Game.slice(1);
+              const slot2Method = `Slot 2 (${formattedGameName})`;
+              
+              if (!methodsByGame[versionName]) {
+                methodsByGame[versionName] = new Set();
+              }
+              methodsByGame[versionName].add(slot2Method);
+              methodsByGame[versionName].add('slot2');
+            }
+
             // Track methods for slot2 games as well
             if (!methodsByGame[slot2Game]) {
               methodsByGame[slot2Game] = new Set();
