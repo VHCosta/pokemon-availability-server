@@ -8,12 +8,13 @@ You may find the Client repo [here](https://github.com/VHCosta/pokemon-availabil
 
 ## Known bugs/issues/things to improve
 
+* Missing availability data for all Switch games. This data is unavailable in PokeAPI.
 * Filtering Slot 2 data is currently handled in the frontend rendering logic with some if-statements. This verification should be moved to the backend, unless enough interest in the current functionality is voiced.
 * Currently I am testing the app with a locally cached copy of the API data, cloned from [here](https://github.com/PokeAPI/pokeapi), to avoid potential rate limits. I have not since tested using the official API, so you may have to do the same to run locally.
 
 ## Future Plans:
 
-* Have the data be served entirely from within the app instead of PokeAPI to avoid rate limits.
+* Add the data for Switch games. Potentially extracting from Bulbapedia, but still weighing options.
 
 ## Credits
 
