@@ -6,14 +6,14 @@ This project is written in ReactJS. Parts of the code were generated using [Deep
 ### Client
 You may find the Client repo [here](https://github.com/VHCosta/pokemon-availability-client).
 
-## Known issues
+## Known bugs/issues/things to improve
 
-* Some Pokemon are missing Evolution method data if their previous form was only obtainable by evolving. _(Example: On selecting Pokemon Red, Ivysaur is only obtainable through evolving the starter Bulbasaur, so it gets the Evolution tag. Venusaur is missing its tag.)_
+* Filtering Slot 2 data is currently handled in the frontend rendering logic with some if-statements. This verification should be moved to the backend, unless enough interest in the current functionality is voiced.
 * Currently I am testing the app with a locally cached copy of the API data, cloned from [here](https://github.com/PokeAPI/pokeapi), to avoid potential rate limits. I have not since tested using the official API, so you may have to do the same to run locally.
 
 ## Future Plans:
 
-* Have the data be served from within the app instead of PokeAPI to avoid rate limits.
+* Have the data be served entirely from within the app instead of PokeAPI to avoid rate limits.
 
 ## Credits
 
