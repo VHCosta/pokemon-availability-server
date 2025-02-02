@@ -1,7 +1,7 @@
 {
   "id": 10061,
   "name": "floette-eternal",
-  "sprite": null,
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10061.png",
   "species": {
     "url": "/api/v2/pokemon-species/670/"
   }
