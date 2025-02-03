@@ -3305,6 +3305,12 @@
               "name": "surf"
             },
             "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
           }
         ]
       },
@@ -3330,6 +3336,12 @@
               "name": "surf"
             },
             "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
           }
         ]
       },
@@ -3353,6 +3365,12 @@
           {
             "method": {
               "name": "surf"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
             },
             "condition_values": []
           }
@@ -3392,6 +3410,12 @@
               "name": "surf"
             },
             "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
           }
         ]
       },
@@ -3427,6 +3451,12 @@
           {
             "method": {
               "name": "surf"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
             },
             "condition_values": []
           }

@@ -1228,6 +1228,12 @@
         "encounter_details": [
           {
             "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
               "name": "surf"
             },
             "condition_values": []
@@ -1239,6 +1245,12 @@
           "name": "ultra-moon"
         },
         "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
           {
             "method": {
               "name": "surf"

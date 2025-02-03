@@ -1,6 +1,32 @@
 [
   {
     "location_area": {
+      "name": "alola-route-15-main"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ultra-moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
       "name": "hano-beach-area"
     },
     "version_details": [

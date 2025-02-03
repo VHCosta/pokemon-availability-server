@@ -315,6 +315,24 @@
               "name": "walk"
             },
             "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
           }
         ]
       },
@@ -326,6 +344,24 @@
           {
             "method": {
               "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
             },
             "condition_values": []
           }

@@ -1,6 +1,51 @@
 [
   {
     "location_area": {
+      "name": "unova-route-10-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "black"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "white"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
       "name": "unova-route-11-area"
     },
     "version_details": [
@@ -40,6 +85,18 @@
               "name": "walk"
             },
             "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
           }
         ]
       },
@@ -51,6 +108,18 @@
           {
             "method": {
               "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
             },
             "condition_values": []
           }
@@ -73,6 +142,18 @@
               "name": "walk"
             },
             "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
           }
         ]
       },
@@ -84,6 +165,18 @@
           {
             "method": {
               "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
             },
             "condition_values": []
           }
@@ -106,6 +199,24 @@
               "name": "walk"
             },
             "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
           }
         ]
       },
@@ -117,6 +228,24 @@
           {
             "method": {
               "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
             },
             "condition_values": []
           }

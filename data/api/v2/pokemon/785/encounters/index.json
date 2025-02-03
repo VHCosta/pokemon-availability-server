@@ -1,1 +1,85 @@
-[]
+[
+  {
+    "location_area": {
+      "name": "ruins-of-conflict-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "sun"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "ultra-sun"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "ultra-moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  }
+]

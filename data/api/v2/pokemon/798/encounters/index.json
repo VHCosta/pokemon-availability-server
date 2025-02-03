@@ -11,7 +11,39 @@
         "encounter_details": [
           {
             "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
               "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "ultra-space-ultra-forest"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ultra-sun"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
             },
             "condition_values": []
           }
@@ -32,6 +64,12 @@
           {
             "method": {
               "name": "walk"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
             },
             "condition_values": []
           }

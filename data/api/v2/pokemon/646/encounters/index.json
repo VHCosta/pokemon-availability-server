@@ -1,1 +1,160 @@
-[]
+[
+  {
+    "location_area": {
+      "name": "giant-chasm-forest-cave"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "black"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "white"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "black-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "white-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "ultra-space-wilds-waterfall"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ultra-sun"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "ultra-moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "gnarled-den-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "omega-ruby"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "alpha-sapphire"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "ultra-space-ultra-space-wilds-water"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ultra-sun"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "ultra-moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  }
+]

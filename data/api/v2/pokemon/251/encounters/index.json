@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "location_area": {
+      "name": "ilex-forest-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "crystal"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  }
+]

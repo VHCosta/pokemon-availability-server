@@ -1,1 +1,95 @@
-[]
+[
+  {
+    "location_area": {
+      "name": "spear-pillar-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "pearl"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "platinum"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "ultra-space-wilds-cave"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ultra-moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "soaring-in-the-sky-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "omega-ruby"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "ultra-space-ultra-space-wilds-cave"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ultra-moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  }
+]

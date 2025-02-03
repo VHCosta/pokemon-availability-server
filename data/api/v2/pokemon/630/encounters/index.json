@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "location_area": {
+      "name": "unova-route-4-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "black-2"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  }
+]

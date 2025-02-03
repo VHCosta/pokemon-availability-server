@@ -11,6 +11,12 @@
         "encounter_details": [
           {
             "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
               "name": "walk"
             },
             "condition_values": []
@@ -24,7 +30,58 @@
         "encounter_details": [
           {
             "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
               "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "ultra-space-ultra-deep-sea"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ultra-sun"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "ultra-moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
             },
             "condition_values": []
           }
@@ -44,6 +101,12 @@
         "encounter_details": [
           {
             "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
               "name": "walk"
             },
             "condition_values": []
@@ -55,6 +118,12 @@
           "name": "moon"
         },
         "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
           {
             "method": {
               "name": "walk"

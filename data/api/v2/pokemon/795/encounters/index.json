@@ -1,6 +1,32 @@
 [
   {
     "location_area": {
+      "name": "ultra-space-ultra-desert"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ultra-moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
       "name": "verdant-cavern-trial-site"
     },
     "version_details": [
@@ -12,6 +38,44 @@
           {
             "method": {
               "name": "walk"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
+      "name": "verdant-cavern--trial-site-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
             },
             "condition_values": []
           }

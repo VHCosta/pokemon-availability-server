@@ -1,6 +1,32 @@
 [
   {
     "location_area": {
+      "name": "altar-of-the-moone-area"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
       "name": "mahalo-trail-area"
     },
     "version_details": [
@@ -12,6 +38,12 @@
           {
             "method": {
               "name": "gift"
+            },
+            "condition_values": []
+          },
+          {
+            "method": {
+              "name": "only-one"
             },
             "condition_values": []
           }

@@ -102,5 +102,38 @@
         ]
       }
     ]
+  },
+  {
+    "location_area": {
+      "name": "ultra-space-wilds-cliff"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "ultra-sun"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "ultra-moon"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
   }
 ]

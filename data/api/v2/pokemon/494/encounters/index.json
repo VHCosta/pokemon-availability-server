@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "location_area": {
+      "name": "liberty-garden-lighthouse-basement"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "black"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      },
+      {
+        "version": {
+          "name": "white"
+        },
+        "encounter_details": [
+          {
+            "method": {
+              "name": "only-one"
+            },
+            "condition_values": []
+          }
+        ]
+      }
+    ]
+  }
+]

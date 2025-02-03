@@ -102,7 +102,8 @@ const ALLOWED_METHODS = new Set([
   'super-rod',
   'headbutt',      // Tree headbutting
   'rock-smash',    // Rock smashing
-  'slot2'          // Dual-slot mode access
+  'slot2',         // Dual-slot mode access
+  'only-one'       // Fixed encounters (e.g. legendaries)
 ]);
 
 // Exclude these methods
